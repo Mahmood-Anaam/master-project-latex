@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-08",
+  "scope": "IS595 chapters 1 and 2; not the complete course report",
+  "pdfs": {
+    "chapters-1-2-submission": {
+      "file": "docs/review/chapters-1-2-submission.pdf",
+      "pages": 37,
+      "sha256": "7c4924b6fa92b34ac7c060ed2b5f0cc6d7bf72b3d2e8bdffca4128935606e705",
+      "final_latex_warnings": []
+    },
+    "introduction-review": {
+      "file": "docs/review/introduction-review.pdf",
+      "pages": 10,
+      "sha256": "27edde5e793dca7a192eab01dffa12d31cb58f50b51c2d56b3f2e7131f3fb3ce",
+      "final_latex_warnings": []
+    },
+    "literature-review": {
+      "file": "docs/review/literature-review.pdf",
+      "pages": 24,
+      "sha256": "4082ddb9d144effd37fbfe3d3279ee5c63d897329653f6f4ba00468c29e8be8f",
+      "final_latex_warnings": []
+    }
+  },
+  "printed_pages": {
+    "introduction": "1-9",
+    "literature_review": "10-32",
+    "references": "33-34"
+  },
+  "full_text_synthesis_sources": 9,
+  "cited_references": 11,
+  "all_cited_references_have_doi": true,
+  "doi_links_rendered_in_combined_bibliography": 11,
+  "tables": 4,
+  "sideways_table": "2.2",
+  "text_outside_page_bounds": [],
+  "toc_reference_destination_pdf_page": 36,
+  "meeting_examples_arithmetic": "checked; synthetic illustration only",
+  "source_sha256": {
+    "chapters/introduction.tex": "9aa04e2c1b97337ca81e3ea0b841a7073b934cba74dedb81d0f0d18e7b025fb8",
+    "chapters/literaturereview.tex": "2aab1baf855a33253152fec0bbbf7464662efa59d7e990909c25f10cced40be3",
+    "references.bib": "683d227c4d43bbf406cc6cace3879961b58f562eebf38f273bed7e617fc7bb0b",
+    "docs/review/chapters-1-2-submission.tex": "719f175afa5be30b803023c83bb521d036b82f0a850993dae723f655c4cc7301"
+  },
+  "full_report_requirements_pending": [
+    "discussion and anticipated applications",
+    "conclusion and future work",
+    "20-30 references (current chapters: 11)",
+    "complete-report abstract and confirmed personal cover data"
+  ],
+  "main_template_build": {
+    "success": true,
+    "known_warning": "lipsum: Unknown language latin in unchanged template content"
+  },
+  "visual_review": "All 37 combined PDF pages inspected in contact sheets; cover, time-profile page and four tables inspected at larger scale, including rotated Table 2.2. Shortened heading and resulting float positions inspected in the final build.",
+  "objectives_sentences": 5
+}

@@ -1,0 +1,45 @@
+% Compile from the repository root with latexmk; see docs/chapters-1-2-final-review.md.
+\documentclass[12pt,a4paper,oneside]{report}
+\input{packages.tex}
+\hypersetup{pdftitle={Rule-Based Decision Support for Service Recovery Prioritization},
+  pdfsubject={IS595: Introduction and Literature Review, supervisor submission}}
+\begin{document}
+\begin{titlepage}
+\centering
+\vspace*{1cm}
+{\large King Saud University\par}
+\vspace{0.3cm}
+{\large College of Computer and Information Sciences\par}
+\vspace{0.3cm}
+{\large Department of Information Systems\par}
+\vfill
+{\LARGE\bfseries Rule-Based Decision Support for Service Recovery Prioritization\par}
+\vspace{0.7cm}
+{\large Time-Dependent Business Impact and Service Dependencies\par}
+\vspace{1.3cm}
+{\large Master's Graduation Project (Non-Thesis Track)\par}
+\vspace{0.4cm}
+{\large Research Seminar -- IS595\par}
+\vfill
+{\Large Introduction and Literature Review\par}
+\vspace{0.4cm}
+{\large Submission for Supervisor Review\par}
+\vspace{1cm}
+{\large 8 October 2026\par}
+\end{titlepage}
+\pagenumbering{roman}
+\singlespacing
+\setcounter{tocdepth}{2}
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+\doublespacing
+\input{chapters/introduction.tex}
+\input{chapters/literaturereview.tex}
+\clearpage
+\singlespacing
+\phantomsection
+\addcontentsline{toc}{chapter}{References}
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}
