@@ -19,3 +19,8 @@
 main.pdf
 tmp/
 output/
+
+# Local scholarly reading copies without established redistribution permission
+docs/studies/podaras2016tools.pdf
+docs/studies/saaty2008ahp.pdf
+docs/studies/saleem2008bcin.pdf

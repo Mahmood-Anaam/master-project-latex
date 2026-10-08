@@ -1,0 +1,110 @@
+[
+  {
+    "key": "quinn2025bia",
+    "doi": "10.6028/nist.ir.8286d-upd1",
+    "download_url": "https://nvlpubs.nist.gov/nistpubs/ir/2025/NIST.IR.8286D-upd1.pdf",
+    "download_date": "2026-10-08",
+    "pages": 27,
+    "sha256": "83ba9a1e6e7b6dfdee2714e7a7ec5a84756085fff9919074db6ae7e1c89aa1b0",
+    "reading_status": "complete extracted article text; image-only Saaty/Shahverdi tables visually inspected",
+    "license": "US government report; public dissemination",
+    "pdf_in_git": true,
+    "summary": "docs/study-notes/quinn2025bia.md"
+  },
+  {
+    "key": "idrees2019bcis",
+    "doi": "10.3844/jcssp.2019.1133.1149",
+    "download_url": "https://thescipub.com/pdf/jcssp.2019.1133.1149.pdf",
+    "download_date": "2026-10-08",
+    "pages": 17,
+    "sha256": "de57b38a4672a7da64dfa10e7d389655c4f0c0604c70b491f63e0a6244ef3ed1",
+    "reading_status": "complete extracted article text; image-only Saaty/Shahverdi tables visually inspected",
+    "license": "CC BY 3.0",
+    "pdf_in_git": true,
+    "summary": "docs/study-notes/idrees2019bcis.md"
+  },
+  {
+    "key": "podaras2016tools",
+    "doi": "10.15240/tul/001/2016-1-012",
+    "download_url": "https://naos-be.zcu.cz/server/api/core/bitstreams/e91a0fcd-984b-445b-a4f1-f8350677cc37/content",
+    "download_date": "2026-10-08",
+    "pages": 18,
+    "sha256": "83a567d67fe7a6811c53b207751b4bfb3fd15c36bf764377837a652c3781d60c",
+    "reading_status": "complete extracted article text; image-only Saaty/Shahverdi tables visually inspected",
+    "license": "Redistribution permission not established; retain local reading copy and link source",
+    "pdf_in_git": false,
+    "summary": "docs/study-notes/podaras2016tools.md"
+  },
+  {
+    "key": "raptaki2025propagation",
+    "doi": "10.1007/s10207-025-01040-0",
+    "download_url": "https://link.springer.com/content/pdf/10.1007/s10207-025-01040-0.pdf",
+    "download_date": "2026-10-08",
+    "pages": 17,
+    "sha256": "941978655d043fd569a1ab818f01a51b8b721baa087abf80416a03b4f585e815",
+    "reading_status": "complete extracted article text; image-only Saaty/Shahverdi tables visually inspected",
+    "license": "CC BY 4.0",
+    "pdf_in_git": true,
+    "summary": "docs/study-notes/raptaki2025propagation.md"
+  },
+  {
+    "key": "reference2026processes",
+    "doi": "10.3390/app16073219",
+    "download_url": "https://mdpi-res.com/d_attachment/applsci/applsci-16-03219/article_deploy/applsci-16-03219.pdf",
+    "download_date": "2026-10-08",
+    "pages": 21,
+    "sha256": "97ec4cc1bde7472a7efc80c1e568ee27cc4c584bf39b8320fa530b8a98a10e4f",
+    "reading_status": "complete extracted article text; image-only Saaty/Shahverdi tables visually inspected",
+    "license": "CC BY 4.0",
+    "pdf_in_git": true,
+    "summary": "docs/study-notes/reference2026processes.md"
+  },
+  {
+    "key": "saaty2008ahp",
+    "doi": "10.1504/ijssci.2008.017590",
+    "download_url": "https://www.rafikulislam.com/uploads/resourses/197245512559a37aadea6d.pdf",
+    "download_date": "2026-10-08",
+    "pages": 16,
+    "sha256": "9e32ecc4c37d963ad0e4ababc4e67c52e522897263490c1e027869ae907f9d57",
+    "reading_status": "complete extracted article text; image-only Saaty/Shahverdi tables visually inspected",
+    "license": "Redistribution permission not established; retain local reading copy and link source",
+    "pdf_in_git": false,
+    "summary": "docs/study-notes/saaty2008ahp.md"
+  },
+  {
+    "key": "shahverdi2025recovery",
+    "doi": "10.1007/s00291-024-00777-9",
+    "download_url": "https://link.springer.com/content/pdf/10.1007/s00291-024-00777-9.pdf",
+    "download_date": "2026-10-08",
+    "pages": 37,
+    "sha256": "567e457fc933026a664da02892309442ac79bb761b13785202ea921a95921f7b",
+    "reading_status": "complete extracted article text; image-only Saaty/Shahverdi tables visually inspected",
+    "license": "CC BY 4.0",
+    "pdf_in_git": true,
+    "summary": "docs/study-notes/shahverdi2025recovery.md"
+  },
+  {
+    "key": "venable2016feds",
+    "doi": "10.1057/ejis.2014.36",
+    "download_url": "https://link.springer.com/content/pdf/10.1057/ejis.2014.36.pdf",
+    "download_date": "2026-10-08",
+    "pages": 13,
+    "sha256": "4711c2f3ea1ff0c6578158ff37a4a1201c3e9c02ce77798690dafda70eb0e8ba",
+    "reading_status": "complete extracted article text; image-only Saaty/Shahverdi tables visually inspected",
+    "license": "CC BY 3.0",
+    "pdf_in_git": true,
+    "summary": "docs/study-notes/venable2016feds.md"
+  },
+  {
+    "key": "saleem2008bcin",
+    "doi": "10.1145/1367832.1367852",
+    "download_url": "https://www.cs.ucr.edu/~vagelis/publications/BCINDigiGovCameraReadyFinal.pdf",
+    "download_date": "2026-10-08",
+    "pages": 10,
+    "sha256": "e3e4b55a4adc445e8f91d2b3fbc54fdf05fe4c76b823ff04057c033228d2083e",
+    "reading_status": "complete extracted article text; image-only Saaty/Shahverdi tables visually inspected",
+    "license": "Redistribution permission not established; retain local reading copy and link source",
+    "pdf_in_git": false,
+    "summary": "docs/study-notes/saleem2008bcin.md"
+  }
+]

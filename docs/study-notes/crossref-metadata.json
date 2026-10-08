@@ -1,0 +1,3055 @@
+{
+  "quinn2025bia": {
+    "institution": [
+      {
+        "id": [
+          {
+            "id": "https://ror.org/05xpvk416",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          },
+          {
+            "id": "https://www.isni.org/000000012158463X",
+            "id-type": "ISNI",
+            "asserted-by": "publisher"
+          }
+        ],
+        "name": "National Institute of Standards and Technology",
+        "department": [
+          "Information Technology Laboratory"
+        ]
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          22
+        ]
+      ],
+      "date-time": "2026-09-22T19:58:48Z",
+      "timestamp": 1790107128777,
+      "version": "4.0.1"
+    },
+    "publisher-location": "Gaithersburg, MD",
+    "update-to": [
+      {
+        "DOI": "10.6028/nist.ir.8286d",
+        "type": "erratum",
+        "label": "Erratum",
+        "source": "publisher",
+        "updated": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              26
+            ]
+          ],
+          "date-time": "2025-02-26T00:00:00Z",
+          "timestamp": 1740528000000
+        }
+      }
+    ],
+    "reference-count": 0,
+    "publisher": "National Institute of Standards and Technology (U.S.)",
+    "funder": [
+      {
+        "DOI": "10.13039/100000161",
+        "name": "National Institute of Standards and Technology",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000161",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100007764",
+        "name": "Information Technology Laboratory",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100007764",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "nvlpubs.nist.gov"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "abstract": "<jats:p/>",
+    "DOI": "10.6028/nist.ir.8286d-upd1",
+    "type": "report",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          24
+        ]
+      ],
+      "date-time": "2025-02-24T13:03:51Z",
+      "timestamp": 1740402231000
+    },
+    "update-policy": "https://doi.org/10.6028/nist-techpubs.crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Using business impact analysis to inform risk prioritization and response"
+    ],
+    "prefix": "10.6028",
+    "author": [
+      {
+        "given": "Stephen D",
+        "family": "Quinn",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nahla",
+        "family": "Ivy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Matthew",
+        "family": "Barrett",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Larry",
+        "family": "Feldman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2612-7547",
+        "authenticated-orcid": false,
+        "given": "Daniel",
+        "family": "Topper",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5425-1097",
+        "authenticated-orcid": false,
+        "given": "Gregory A",
+        "family": "Witte",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "4068",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          26
+        ]
+      ]
+    },
+    "container-title": [],
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          15
+        ]
+      ],
+      "date-time": "2025-05-15T13:20:48Z",
+      "timestamp": 1747315248000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://nvlpubs.nist.gov/nistpubs/ir/2025/NIST.IR.8286D-upd1.pdf"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          26
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.6028/nist.ir.8286d-upd1",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          26
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+        "URL": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+        "order": 0,
+        "name": "licensing",
+        "label": "Licensing Information",
+        "group": {
+          "name": "copyright_licensing",
+          "label": "Copyright, Fair Use, and Licensing"
+        }
+      },
+      {
+        "value": "https://doi.org/Supersedes",
+        "URL": "Supersedes",
+        "order": 0,
+        "name": "publication_history",
+        "label": "Supersedes",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "order": 0,
+        "name": "publication_history",
+        "label": "Approved by the NIST Editorial Review Board on 2025-02-26",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "idrees2019bcis": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          1
+        ]
+      ],
+      "date-time": "2026-02-01T03:23:07Z",
+      "timestamp": 1769916187859,
+      "version": "3.49.0"
+    },
+    "reference-count": 0,
+    "publisher": "Science Publications",
+    "issue": "8",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Journal of Computer Science"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.3844/jcssp.2019.1133.1149",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          19
+        ]
+      ],
+      "date-time": "2019-09-19T02:17:54Z",
+      "timestamp": 1568859474000
+    },
+    "page": "1133-1149",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "A Proposed Mining Based Business Continuity Information System for Educational Institutes"
+    ],
+    "prefix": "10.3844",
+    "volume": "15",
+    "author": [
+      {
+        "given": "Amira M.",
+        "family": "Idrees",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Ahmed Ibrahim",
+        "family": "El Seddawy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Mayada EL",
+        "family": "Moaaz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "2204",
+    "container-title": [
+      "Journal of Computer Science"
+    ],
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          19
+        ]
+      ],
+      "date-time": "2019-09-19T02:17:59Z",
+      "timestamp": 1568859479000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://thescipub.com/abstract/10.3844/jcssp.2019.1133.1149"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          1
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "8",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            8,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.3844/jcssp.2019.1133.1149",
+    "relation": {},
+    "ISSN": [
+      "1549-3636"
+    ],
+    "issn-type": [
+      {
+        "value": "1549-3636",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          1
+        ]
+      ]
+    }
+  },
+  "podaras2016tools": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          21
+        ]
+      ],
+      "date-time": "2025-02-21T21:32:29Z",
+      "timestamp": 1740173549117,
+      "version": "3.37.3"
+    },
+    "reference-count": 0,
+    "publisher": "Technical University of Liberec",
+    "issue": "1",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "E+M"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2016,
+          3,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.15240/tul/001/2016-1-012",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          3,
+          10
+        ]
+      ],
+      "date-time": "2016-03-10T05:01:24Z",
+      "timestamp": 1457586084000
+    },
+    "page": "165-182",
+    "source": "Crossref",
+    "is-referenced-by-count": 11,
+    "title": [
+      "Information management tools for implementing an effective enterprise business continuity strategy"
+    ],
+    "prefix": "10.15240",
+    "volume": "19",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4573-8976",
+        "authenticated-orcid": false,
+        "given": "Athanasios",
+        "family": "Podaras",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Klára",
+        "family": "Antlová",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jiří",
+        "family": "Motejlek",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "5932",
+    "published-online": {
+      "date-parts": [
+        [
+          2016,
+          3,
+          8
+        ]
+      ]
+    },
+    "container-title": [
+      "E+M Ekonomie a Management"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://dspace.tul.cz/bitstream/handle/15240/13613/EM_1_2016_12.pdf?sequence=1",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          13
+        ]
+      ],
+      "date-time": "2018-11-13T12:07:56Z",
+      "timestamp": 1542110876000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dspace.tul.cz/bitstream/handle/15240/13613/EM_1_2016_12.pdf?sequence=1"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          3,
+          8
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2016,
+            3,
+            8
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2016,
+            3,
+            8
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.15240/tul/001/2016-1-012",
+    "relation": {},
+    "ISSN": [
+      "1212-3609"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1212-3609"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          3,
+          8
+        ]
+      ]
+    }
+  },
+  "raptaki2025propagation": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          19
+        ]
+      ],
+      "date-time": "2026-08-19T18:02:49Z",
+      "timestamp": 1787162569837,
+      "version": "build-2736575974"
+    },
+    "reference-count": 58,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2025-05-16T00:00:00Z",
+          "timestamp": 1747353600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2025-05-16T00:00:00Z",
+          "timestamp": 1747353600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Athens University of Economics & Business"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Int. J. Inf. Secur."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Business Impact Analysis (BIA) evaluates how cyberattacks affect essential business processes and IT assets. Traditionally conducted through manual interviews by consultants, this approach is often inefficient and prone to errors and omissions. In this paper, we present an automated methodology leveraging process mining to assess the impact of cybersecurity incidents on business processes. This methodology extracts event logs from information systems to construct business dependency graphs, quantify impact propagation across them, and integrate cybersecurity risk inputs from security officers. Tested on procurement workflows for an international transportation company, and compared with established baselines as well as the insight and knowledge of the company itself, our methodology proved to be effective at identifying risks stemming from a cybersecurity incident without significant labor, as well as uncovering high-risk paths that weren’t yet identified, resulting in actionable insights. This is an extended and revised version of this methodology, evaluated with an extensive case study encompassing a company’s BIA, historical data and expert opinion, first presented in Raptaki (IEEE Access 12: 194322–194339, 2024).</jats:p>",
+    "DOI": "10.1007/s10207-025-01040-0",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          16
+        ]
+      ],
+      "date-time": "2025-05-16T06:11:57Z",
+      "timestamp": 1747375917000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Automated cybersecurity impact propagation across business processes using process mining techniques"
+    ],
+    "prefix": "10.1007",
+    "volume": "24",
+    "author": [
+      {
+        "given": "Melina",
+        "family": "Raptaki",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "George",
+        "family": "Stergiopoulos",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dimitris",
+        "family": "Gritzalis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          16
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "1040_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "194322",
+        "DOI": "10.1109/ACCESS.2024.3520420",
+        "volume": "12",
+        "author": "M Raptaki",
+        "year": "2024",
+        "unstructured": "Raptaki, M., Stergiopoulos, G., Gritzalis, D.: Automated event log analysis with causal dependency graphs for impact assessment of business processes. IEEE Access 12, 194322–194339 (2024). https://doi.org/10.1109/ACCESS.2024.3520420",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "1040_CR2",
+        "unstructured": "ISO/TS 22317:2021, Security and resilience — business continuity management systems — guidelines for business impact analysis, 2021"
+      },
+      {
+        "key": "1040_CR3",
+        "doi-asserted-by": "publisher",
+        "unstructured": "NIST SP, Managing information security risk: organization, mission, and information system view. National Institute of Standards and Technology, Gaithersburg, MD, NIST SP 800–39, 2011. https://doi.org/10.6028/NIST.SP.800-39",
+        "DOI": "10.6028/NIST.SP.800-39"
+      },
+      {
+        "key": "1040_CR4",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Syalim, A., Hori, Y., Sakurai, K.: Comparison of risk analysis methods: mehari, magerit, NIST800–30 and microsoft’s security management guide. In 2009 International Conference on Availability, Reliability and Security, Fukuoka, Japan: IEEE, 2009, pp. 726–731. https://doi.org/10.1109/ARES.2009.75",
+        "DOI": "10.1109/ARES.2009.75"
+      },
+      {
+        "issue": "8",
+        "key": "1040_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "2941",
+        "DOI": "10.1080/00207543.2018.1444806",
+        "volume": "56",
+        "author": "LD Xu",
+        "year": "2018",
+        "unstructured": "Xu, L.D., Xu, E.L., Li, L.: Industry 4.0: state of the art and future trends. Int. J. Prod. Res. 56(8), 2941–2962 (2018). https://doi.org/10.1080/00207543.2018.1444806",
+        "journal-title": "Int. J. Prod. Res."
+      },
+      {
+        "key": "1040_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "36",
+        "DOI": "10.1016/j.future.2014.09.005",
+        "volume": "46",
+        "author": "S Schulte",
+        "year": "2015",
+        "unstructured": "Schulte, S., Janiesch, C., Venugopal, S., Weber, I., Hoenisch, P.: Elastic business process management: state of the art and open challenges for BPM in the cloud. Future Gener. Comput. Syst. 46, 36–50 (2015). https://doi.org/10.1016/j.future.2014.09.005",
+        "journal-title": "Future Gener. Comput. Syst."
+      },
+      {
+        "issue": "4",
+        "key": "1040_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "349",
+        "DOI": "10.31803/tg-20181008155243",
+        "volume": "13",
+        "author": "J Tupa",
+        "year": "2019",
+        "unstructured": "Tupa, J., Steiner, F.: Industry 4.0 and business process management. Teh. Glas. 13(4), 349–355 (2019). https://doi.org/10.31803/tg-20181008155243",
+        "journal-title": "Teh. Glas."
+      },
+      {
+        "key": "1040_CR8",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Van Der Aalst, W.: Process Mining. Berlin, Heidelberg: Springer Berlin Heidelberg, 2016. https://doi.org/10.1007/978-3-662-49851-4",
+        "DOI": "10.1007/978-3-662-49851-4"
+      },
+      {
+        "issue": "4",
+        "key": "1040_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "464",
+        "DOI": "10.1016/j.compind.2013.02.001",
+        "volume": "64",
+        "author": "F Caron",
+        "year": "2013",
+        "unstructured": "Caron, F., Vanthienen, J., Baesens, B.: A comprehensive investigation of the applicability of process mining techniques for enterprise risk management. Comput. Ind. 64(4), 464–475 (2013). https://doi.org/10.1016/j.compind.2013.02.001",
+        "journal-title": "Comput. Ind."
+      },
+      {
+        "key": "1040_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "145",
+        "DOI": "10.24989/ocg.v325.13",
+        "volume": "325",
+        "author": "R Kelemen",
+        "year": "2018",
+        "unstructured": "Kelemen, R.: Systematic review on process mining and security. Cent. East. Eur. EDem EGov Days 325, 145–164 (2018). https://doi.org/10.24989/ocg.v325.13",
+        "journal-title": "Cent. East. Eur. EDem EGov Days"
+      },
+      {
+        "key": "1040_CR11",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Suriadi, S., et al.: Current research in risk-aware business process management―overview, comparison, and gap analysis. Commun. Assoc. Inf. Syst., 34, (2014). https://doi.org/10.17705/1CAIS.03452",
+        "DOI": "10.17705/1CAIS.03452"
+      },
+      {
+        "key": "1040_CR12",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Tjoa, S., Jakoubi, S., Quirchmayr, G.: Enhancing business impact analysis and risk assessment applying a risk-aware business process modeling and simulation methodology. In 2008 third international conference on availability, reliability and security, IEEE, pp. 179–186 (2008). https://doi.org/10.1109/ARES.2008.206",
+        "DOI": "10.1109/ARES.2008.206"
+      },
+      {
+        "issue": "3",
+        "key": "1040_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "1357",
+        "DOI": "10.1016/j.dss.2012.12.012",
+        "volume": "54",
+        "author": "F Caron",
+        "year": "2013",
+        "unstructured": "Caron, F., Vanthienen, J., Baesens, B.: Comprehensive rule-based compliance checking and risk management with process mining. Decis. Support. Syst. 54(3), 1357–1369 (2013). https://doi.org/10.1016/j.dss.2012.12.012",
+        "journal-title": "Decis. Support. Syst."
+      },
+      {
+        "key": "1040_CR14",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Dedousis, P., Raptaki, M., Stergiopoulos, G., Gritzalis, D.: Towards an automated business process model risk assessment: a process mining approach. In: Proceedings of the 19th international conference on security and cryptography, Lisbon, Portugal: SCITEPRESS - Science and Technology Publications, pp. 35–46 (2022). https://doi.org/10.5220/0011135600003283",
+        "DOI": "10.5220/0011135600003283"
+      },
+      {
+        "key": "1040_CR15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.6028/NIST.IR.8286",
+        "author": "K Stine",
+        "year": "2020",
+        "unstructured": "Stine, K., Quinn, S., Witte, G., Gardner, R.K.: Integrating cybersecurity and enterprise risk management (ERM). Natl Inst Stand Technol (2020). https://doi.org/10.6028/NIST.IR.8286",
+        "journal-title": "Natl Inst Stand Technol"
+      },
+      {
+        "key": "1040_CR16",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Quinn, S., et al.: Using business impact analysis to inform risk prioritization and response. National institute of standards and technology (U.S.), Gaithersburg, MD, NIST IR 8286D, (2022). https://doi.org/10.6028/NIST.IR.8286D",
+        "DOI": "10.6028/NIST.IR.8286D"
+      },
+      {
+        "key": "1040_CR17",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Burton, S. L., Protection via business impact analysis in a cyber world: A 3-part series. In 17th international conference on information technology–new generations (ITNG 2020), vol. 1134, S. Latifi, Ed., in Advances in Intelligent Systems and Computing, vol 1134, pp 3–8, Cham, Springer International Publishing (2020). https://doi.org/10.1007/978-3-030-43020-7_1",
+        "DOI": "10.1007/978-3-030-43020-7_1"
+      },
+      {
+        "key": "1040_CR18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.19044/esj.2020.v16n4p1",
+        "author": "A Strelicz",
+        "year": "2020",
+        "unstructured": "Strelicz, A., Bognár, F.: Integrated risk and business impact analysis: a kind of support for ISO 22301. Eur. Sci. J. ESJ (2020). https://doi.org/10.19044/esj.2020.v16n4p1",
+        "journal-title": "Eur. Sci. J. ESJ"
+      },
+      {
+        "key": "1040_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "309",
+        "DOI": "10.1016/j.ssci.2014.04.017",
+        "volume": "68",
+        "author": "SA Torabi",
+        "year": "2014",
+        "unstructured": "Torabi, S.A., Rezaei Soufi, H., Sahebjamnia, N.: A new framework for business impact analysis in business continuity management (with a case study). Saf. Sci. 68, 309–323 (2014). https://doi.org/10.1016/j.ssci.2014.04.017",
+        "journal-title": "Saf. Sci."
+      },
+      {
+        "issue": "1–2",
+        "key": "1040_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "93",
+        "DOI": "10.1504/IJCIS.2013.051606",
+        "volume": "9",
+        "author": "P Kotzanikolaou",
+        "year": "2013",
+        "unstructured": "Kotzanikolaou, P., Theoharidou, M., Gritzalis, D.: Assessing n-order dependencies between critical infrastructures. Int. J. Crit. Infrastruct. 9(1–2), 93–110 (2013)",
+        "journal-title": "Int. J. Crit. Infrastruct."
+      },
+      {
+        "issue": "2/3",
+        "key": "1040_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "184",
+        "DOI": "10.1504/IJCIS.2017.088231",
+        "volume": "13",
+        "author": "G Stergiopoulos",
+        "year": "2017",
+        "unstructured": "Stergiopoulos, G., Kouktzoglou, V., Theocharidou, M., Gritzalis, D.: A process-based dependency risk analysis methodology for critical infrastructures. Int. J. Crit. Infrastruct. 13(2/3), 184 (2017). https://doi.org/10.1504/IJCIS.2017.088231",
+        "journal-title": "Int. J. Crit. Infrastruct."
+      },
+      {
+        "key": "1040_CR22",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Al-Essa, H. A., Al-Sharidah, A. H.: An approach to automate business impact analysis. In: 2018 IEEE international systems engineering symposium (ISSE), Rome: IEEE, 2018, pp 1–3. https://doi.org/10.1109/SysEng.2018.8544438",
+        "DOI": "10.1109/SysEng.2018.8544438"
+      },
+      {
+        "issue": "3",
+        "key": "1040_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "128",
+        "DOI": "10.1080/19393555.2010.551274",
+        "volume": "20",
+        "author": "P Sikdar",
+        "year": "2011",
+        "unstructured": "Sikdar, P.: Alternate approaches to business impact analysis. Inf. Secur. J. Glob. Perspect. 20(3), 128–134 (2011). https://doi.org/10.1080/19393555.2010.551274",
+        "journal-title": "Inf. Secur. J. Glob. Perspect."
+      },
+      {
+        "key": "1040_CR24",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Bartolini, C., Stefanelli, C., Tortonesi, M. Business-impact analysis and simulation of critical incidents in IT service management. In: 2009 IFIP/IEEE international symposium on integrated network management, New York, NY, USA: IEEE, pp. 9–16 (2009). https://doi.org/10.1109/INM.2009.5188781",
+        "DOI": "10.1109/INM.2009.5188781"
+      },
+      {
+        "issue": "1",
+        "key": "1040_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "69",
+        "DOI": "10.1007/s00450-013-0247-3",
+        "volume": "30",
+        "author": "S Radeschütz",
+        "year": "2015",
+        "unstructured": "Radeschütz, S., Schwarz, H., Niedermann, F.: Business impact analysis—a framework for a comprehensive analysis and optimization of business processes. Comput. Sci. - Res. Dev. 30(1), 69–86 (2015). https://doi.org/10.1007/s00450-013-0247-3",
+        "journal-title": "Comput. Sci. - Res. Dev."
+      },
+      {
+        "issue": "1",
+        "key": "1040_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "58",
+        "DOI": "10.1109/TNSM.2010.I9P0305",
+        "volume": "7",
+        "author": "T Setzer",
+        "year": "2010",
+        "unstructured": "Setzer, T., Bhattacharya, K., Ludwig, H.: Change scheduling based on business impact analysis of change-related risk. IEEE Trans. Netw. Serv. Manag. 7(1), 58–71 (2010). https://doi.org/10.1109/TNSM.2010.I9P0305",
+        "journal-title": "IEEE Trans. Netw. Serv. Manag."
+      },
+      {
+        "issue": "1",
+        "key": "1040_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "37",
+        "DOI": "10.1007/s10207-020-00533-4",
+        "volume": "21",
+        "author": "G Stergiopoulos",
+        "year": "2022",
+        "unstructured": "Stergiopoulos, G., Dedousis, P., Gritzalis, D.: Automatic analysis of attack graphs for risk mitigation and prioritization on large-scale and complex networks in Industry 4.0. Int. J. Inf. Secur. 21(1), 37–59 (2022). https://doi.org/10.1007/s10207-020-00533-4",
+        "journal-title": "Int. J. Inf. Secur."
+      },
+      {
+        "key": "1040_CR28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10207-023-00731-w",
+        "author": "K Adamos",
+        "year": "2023",
+        "unstructured": "Adamos, K., Stergiopoulos, G., Karamousadakis, M., Gritzalis, D.: Enhancing attack resilience of cyber-physical systems through state dependency graph models. Int. J. Inf. Secur. (2023). https://doi.org/10.1007/s10207-023-00731-w",
+        "journal-title": "Int. J. Inf. Secur."
+      },
+      {
+        "issue": "1",
+        "key": "1040_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "1219",
+        "DOI": "10.1038/srep01219",
+        "volume": "3",
+        "author": "X Huang",
+        "year": "2013",
+        "unstructured": "Huang, X., Vodenska, I., Havlin, S., Stanley, H.E.: Cascading failures in bi-partite graphs: model for systemic risk propagation. Sci. Rep. 3(1), 1219 (2013). https://doi.org/10.1038/srep01219",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "1040_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "223234",
+        "DOI": "10.1109/ACCESS.2020.3045340",
+        "volume": "8",
+        "author": "G Lykou",
+        "year": "2020",
+        "unstructured": "Lykou, G., Dedousis, P., Stergiopoulos, G., Gritzalis, D.: Assessing interdependencies and congestion delays in the aviation network. IEEE Access 8, 223234–223254 (2020). https://doi.org/10.1109/ACCESS.2020.3045340",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "25",
+        "key": "1040_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "169912",
+        "DOI": "10.4108/eai.11-5-2021.169912",
+        "volume": "7",
+        "author": "V Trieu-Do",
+        "year": "2021",
+        "unstructured": "Trieu-Do, V., Garcia-Lebron, R., Xu, M., Xu, S., Feng, Y.: Characterizing and leveraging granger causality in cybersecurity: framework and case study. ICST Trans. Secur. Saf. 7(25), 169912 (2021). https://doi.org/10.4108/eai.11-5-2021.169912",
+        "journal-title": "ICST Trans. Secur. Saf."
+      },
+      {
+        "key": "1040_CR32",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Maiti, R. R., Adepu, S., Lupu, E.: ICCPS: impact discovery using causal inference for cyber attacks in CPSs. 2023. arXiv. https://doi.org/10.48550/ARXIV.2307.14161",
+        "DOI": "10.48550/ARXIV.2307.14161"
+      },
+      {
+        "key": "1040_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "103",
+        "DOI": "10.1016/j.cose.2018.06.002",
+        "volume": "78",
+        "author": "D Myers",
+        "year": "2018",
+        "unstructured": "Myers, D., Suriadi, S., Radke, K., Foo, E.: Anomaly detection for industrial control systems using process mining. Comput. Secur. 78, 103–125 (2018). https://doi.org/10.1016/j.cose.2018.06.002",
+        "journal-title": "Comput. Secur."
+      },
+      {
+        "key": "1040_CR34",
+        "volume-title": "New York",
+        "author": "ICT systems security and privacy protection",
+        "year": "2017",
+        "unstructured": "ICT systems security and privacy protection: New York. Springer, Berlin Heidelberg, NY (2017)"
+      },
+      {
+        "key": "1040_CR35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.14569/IJACSA.2024.0150266",
+        "author": "TN Gongada",
+        "year": "2024",
+        "unstructured": "Gongada, T.N., et al.: Leveraging machine learning for enhanced cyber attack detection and defence in big data management and process mining. Int. J. Adv. Comput. Sci. Appl. (2024). https://doi.org/10.14569/IJACSA.2024.0150266",
+        "journal-title": "Int. J. Adv. Comput. Sci. Appl."
+      },
+      {
+        "key": "1040_CR36",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Macak, M., Vanat, I., Merjavy, M., Jevocin, T., Buhnova, B.: Towards process mining utilization in insider threat detection from audit logs. In: 2020 seventh international conference on social networks analysis, management and security (SNAMS), Paris, France: IEEE, pp. 1–6. (2020). https://doi.org/10.1109/SNAMS52053.2020.9336573",
+        "DOI": "10.1109/SNAMS52053.2020.9336573"
+      },
+      {
+        "key": "1040_CR37",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Turner, R. C.: Process mining for asymmetric cybersecurity audit. In: 2022 IEEE International Conference on Cyber Security and Resilience (CSR), Rhodes, Greece: IEEE, pp. 293–298. (2022). https://doi.org/10.1109/CSR54599.2022.9850298",
+        "DOI": "10.1109/CSR54599.2022.9850298"
+      },
+      {
+        "key": "1040_CR38",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Khan, M. A., Pradhan, S. K., Fatima, H. Applying data mining techniques in cyber crimes. In 2017 2nd International Conference on Anti-Cyber Crimes (ICACC), Abha, Saudi Arabia: IEEE, pp. 213–216. (2017). https://doi.org/10.1109/Anti-Cybercrime.2017.7905293",
+        "DOI": "10.1109/Anti-Cybercrime.2017.7905293"
+      },
+      {
+        "key": "1040_CR39",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Macak, M., Oslejsek, R., Buhnova, B.: Applying process discovery to cybersecurity training: an experience report. In: 2022 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW), Genoa, Italy: IEEE, pp. 394–402. (2022). https://doi.org/10.1109/EuroSPW55150.2022.00047",
+        "DOI": "10.1109/EuroSPW55150.2022.00047"
+      },
+      {
+        "key": "1040_CR40",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Hemmer, A., Badonnel, R., Chrisment, I.: A process mining approach for supporting IoT predictive security. In: NOMS 2020–2020 IEEE/IFIP Network Operations and Management Symposium, Budapest, Hungary: IEEE, pp. 1–9. (2020). https://doi.org/10.1109/NOMS47738.2020.9110411",
+        "DOI": "10.1109/NOMS47738.2020.9110411"
+      },
+      {
+        "key": "1040_CR41",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Pery, A., Rafiei, M., Simon, M., Van Der Aalst, W. M. P.: Trustworthy artificial intelligence and process mining: challenges and opportunities. In: Process Mining Workshops, vol. 433, J. Munoz-Gama and X. Lu, Eds., in Lecture Notes in Business Information Processing, vol. 433, Cham: Springer International Publishing, pp. 395–407. (2022). https://doi.org/10.1007/978-3-030-98581-3_29",
+        "DOI": "10.1007/978-3-030-98581-3_29"
+      },
+      {
+        "issue": "9",
+        "key": "1040_CR42",
+        "doi-asserted-by": "publisher",
+        "first-page": "1128",
+        "DOI": "10.1109/TKDE.2004.47",
+        "volume": "16",
+        "author": "W Van Der Aalst",
+        "year": "2004",
+        "unstructured": "Van Der Aalst, W., Weijters, T., Maruster, L.: Workflow mining: discovering process models from event logs. IEEE Trans. Knowl. Data Eng. 16(9), 1128–1142 (2004). https://doi.org/10.1109/TKDE.2004.47",
+        "journal-title": "IEEE Trans. Knowl. Data Eng."
+      },
+      {
+        "key": "1040_CR43",
+        "doi-asserted-by": "publisher",
+        "first-page": "45",
+        "DOI": "10.1016/j.ieri.2014.03.008",
+        "volume": "6",
+        "author": "C Giuseppe",
+        "year": "2014",
+        "unstructured": "Giuseppe, C., Valerio, M., Teresa, M., Carmela, S.L.: A simulation approach in process mining conformance analysis. The introduction of a brand new BPMN element. IERI Procedia 6, 45–51 (2014). https://doi.org/10.1016/j.ieri.2014.03.008",
+        "journal-title": "IERI Procedia"
+      },
+      {
+        "issue": "4",
+        "key": "1040_CR44",
+        "doi-asserted-by": "publisher",
+        "first-page": "93",
+        "DOI": "10.4018/ijismd.2013100105",
+        "volume": "4",
+        "author": "O Altuhhov",
+        "year": "2013",
+        "unstructured": "Altuhhov, O., Matulevičius, R., Ahmed, N.: An extension of business process model and notation for security risk management. Int. J. Inf. Syst. Model. Des. 4(4), 93–113 (2013). https://doi.org/10.4018/ijismd.2013100105",
+        "journal-title": "Int. J. Inf. Syst. Model. Des."
+      },
+      {
+        "key": "1040_CR45",
+        "doi-asserted-by": "publisher",
+        "first-page": "1247",
+        "DOI": "10.1016/j.procs.2021.01.324",
+        "volume": "181",
+        "author": "P Cardoso",
+        "year": "2021",
+        "unstructured": "Cardoso, P., Respício, A., Domingos, D.: riskaBPMN - a BPMN extension for risk assessment. Procedia Comput. Sci. 181, 1247–1254 (2021). https://doi.org/10.1016/j.procs.2021.01.324",
+        "journal-title": "Procedia Comput. Sci."
+      },
+      {
+        "key": "1040_CR46",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Marcinkowski, B., Kuciapski, M.: A business process modeling notation extension for risk handling. In: Computer Information Systems and Industrial Management, A. Cortesi, N. Chaki, K. Saeed, and S. Wierzchoń, Eds., in Lecture Notes in Computer Science, vol. 7564, pp. 374–381. Berlin, Heidelberg: Springer Berlin Heidelberg (2012). https://doi.org/10.1007/978-3-642-33260-9_32",
+        "DOI": "10.1007/978-3-642-33260-9_32"
+      },
+      {
+        "key": "1040_CR47",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Meland, P. H., Gjaere, E. A.: Representing threats in BPMN 2.0. In: 2012 Seventh International Conference on Availability, Reliability and Security, Prague, TBD, Czech Republic: IEEE, pp. 542–550. (2012). https://doi.org/10.1109/ARES.2012.13",
+        "DOI": "10.1109/ARES.2012.13"
+      },
+      {
+        "key": "1040_CR48",
+        "unstructured": "Fang, P., et al.: Back-propagating system dependency impact for attack investigation. In: Proceedings of the 31th USENIX Security Symposium, pp. 2461–2478. Boston, USA: USENIX Association (2022)"
+      },
+      {
+        "key": "1040_CR49",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Van Dongen, B. F., De Medeiros, A. K. A., Verbeek, H. M. W., Weijters, A. J. M. M., Van Der Aalst, W. M. P.: The ProM framework: a new era in process mining tool support. In Applications and Theory of Petri Nets 2005, G. Ciardo and P. Darondeau, Eds., In: Lecture Notes in Computer Science, vol. 3536, pp. 444–454. Berlin, Heidelberg: Springer Berlin Heidelberg (2005). https://doi.org/10.1007/11494744_25",
+        "DOI": "10.1007/11494744_25"
+      },
+      {
+        "key": "1040_CR50",
+        "unstructured": "IEEE. IEEE 1849–2016 XES Standard. XES. [Online]. Available: https://xes-standard.org"
+      },
+      {
+        "issue": "3",
+        "key": "1040_CR51",
+        "doi-asserted-by": "publisher",
+        "first-page": "231",
+        "DOI": "10.1016/j.compind.2003.10.001",
+        "volume": "53",
+        "author": "WMP Van Der Aalst",
+        "year": "2004",
+        "unstructured": "Van Der Aalst, W.M.P., Weijters, A.J.M.M.: Process mining: a research agenda. Comput. Ind. 53(3), 231–244 (2004). https://doi.org/10.1016/j.compind.2003.10.001",
+        "journal-title": "Comput. Ind."
+      },
+      {
+        "issue": "8",
+        "key": "1040_CR52",
+        "doi-asserted-by": "publisher",
+        "first-page": "76",
+        "DOI": "10.1145/2240236.2240257",
+        "volume": "55",
+        "author": "W Van Der Aalst",
+        "year": "2012",
+        "unstructured": "Van Der Aalst, W.: Process mining. Commun. ACM 55(8), 76–83 (2012). https://doi.org/10.1145/2240236.2240257",
+        "journal-title": "Commun. ACM"
+      },
+      {
+        "key": "1040_CR53",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Van Dongen, B. F., Alves De Medeiros, A. K., Wen, L.: Process mining: overview and outlook of petri net discovery algorithms. In Transactions on Petri Nets and Other Models of Concurrency II, K. Jensen and W. M. P. Van Der Aalst, Eds., in Lecture Notes in Computer Science, vol. 5460, pp. 225–242. Berlin, Heidelberg: Springer Berlin Heidelberg (2009). https://doi.org/10.1007/978-3-642-00899-3_13",
+        "DOI": "10.1007/978-3-642-00899-3_13"
+      },
+      {
+        "key": "1040_CR54",
+        "unstructured": "Gunther, C. W., Verbeek, H. M. W.: XES - standard definition. BPMcenter. org, Vol. 1409"
+      },
+      {
+        "key": "1040_CR55",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Verbeek, H. M. W., Buijs, J. C. A. M., Van Dongen, B. F., Van Der Aalst, W. M. P.: XES, XESame, and ProM 6. In: Progress in Pattern Recognition, Image Analysis, Computer Vision, and Applications, E. Bayro-Corrochano and E. Hancock, Eds., in Lecture Notes in Computer Science, vol. 8827, pp. 60–75. Cham: Springer International Publishing (2011). https://doi.org/10.1007/978-3-642-17722-4_5",
+        "DOI": "10.1007/978-3-642-17722-4_5"
+      },
+      {
+        "key": "1040_CR56",
+        "unstructured": "Verbeek, H. M. W., Buijs, J. C. A. M., Dongen, van, B. F., Aalst, van der, W. M. P.: ProM 6 : the process mining toolkit. In Proceedings of the Business Process Management 2010 Demonstration Track (Hoboken NJ, USA, September 14–16, 2010), in CEUR Workshop Proceedings. CEUR-WS.org, pp. 34–39 (2010)"
+      },
+      {
+        "key": "1040_CR57",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Günther, C. W., Van Der Aalst, W. M. P.: A generic import framework for process event logs. In: Business Process Management Workshops, J. Eder and S. Dustdar, Eds., In Lecture Notes in Computer Science, vol. 4103, pp. 81–92. Berlin, Heidelberg: Springer Berlin Heidelberg (2006). https://doi.org/10.1007/11837862_10",
+        "DOI": "10.1007/11837862_10"
+      },
+      {
+        "issue": "11",
+        "key": "1040_CR58",
+        "doi-asserted-by": "publisher",
+        "first-page": "1649",
+        "DOI": "10.1093/comjnl/bxx040",
+        "volume": "60",
+        "author": "HMW Verbeek",
+        "year": "2017",
+        "unstructured": "Verbeek, H.M.W., Van der Aalst, W.M.P., Munoz-Gama, J.: Divide and conquer: a tool framework for supporting decomposed discovery in process mining. Comput. J. 60(11), 1649–1674 (2017). https://doi.org/10.1093/comjnl/bxx040",
+        "journal-title": "Comput. J."
+      }
+    ],
+    "container-title": [
+      "International Journal of Information Security"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s10207-025-01040-0.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s10207-025-01040-0/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s10207-025-01040-0.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          21
+        ]
+      ],
+      "date-time": "2025-06-21T06:11:54Z",
+      "timestamp": 1750486314000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/s10207-025-01040-0"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          16
+        ]
+      ]
+    },
+    "references-count": 58,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "1040"
+    ],
+    "URL": "https://doi.org/10.1007/s10207-025-01040-0",
+    "relation": {},
+    "ISSN": [
+      "1615-5262",
+      "1615-5270"
+    ],
+    "issn-type": [
+      {
+        "value": "1615-5262",
+        "type": "print"
+      },
+      {
+        "value": "1615-5270",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          16
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "14 April 2025",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "16 May 2025",
+        "order": 2,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 2,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Conflict of interest"
+        }
+      }
+    ],
+    "article-number": "129"
+  },
+  "reference2026processes": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          27
+        ]
+      ],
+      "date-time": "2026-03-27T12:09:15Z",
+      "timestamp": 1774613355680,
+      "version": "3.50.1"
+    },
+    "reference-count": 37,
+    "publisher": "MDPI AG",
+    "issue": "7",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              26
+            ]
+          ],
+          "date-time": "2026-03-26T00:00:00Z",
+          "timestamp": 1774483200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Applied Sciences"
+    ],
+    "abstract": "<jats:p>Currently, a standardized process reference model specifically tailored for the business continuity management system (BCMS) is absent. Moreover, BCMS processes have not been a primary focus of ongoing research endeavors. This paper aims to fill this research gap by presenting findings from a process mapping study concerning BCMS processes within the most prominent and widely acknowledged standards for business continuity management, alongside insights gleaned from expert interviews. The authors propose a collection of BCMS processes that should comprise a BCMS process reference model intended for implementation at a maturity level tailored to individual organizational needs. It aims to strengthen the resilience of organizations to cyber threats and to optimize the processes for effective management within the disaster management cycle. The study identifies and maps the necessary processes required to build a comprehensive BCMS model. These processes include, among others, risk assessment, business impact analysis, the development of BC strategies and solutions, the creation of BC plans and procedures, incident and emergency management, and periodic reviews and exercises. The relevance of these processes was validated through expert interviews, making a clear distinction between core, management, and support processes.</jats:p>",
+    "DOI": "10.3390/app16073219",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          27
+        ]
+      ],
+      "date-time": "2026-03-27T11:12:25Z",
+      "timestamp": 1774609945000
+    },
+    "page": "3219",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Business Continuity Management—Identifying Relevant Processes for a Reference Model"
+    ],
+    "prefix": "10.3390",
+    "volume": "16",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0292-7435",
+        "authenticated-orcid": false,
+        "given": "Daniel",
+        "family": "Arias-Aranda",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Departamento de Organización de Empresas I, Universidad de Granada, 18012 Granada, Spain"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6019-2476",
+        "authenticated-orcid": false,
+        "given": "Knut",
+        "family": "Haufe",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "EY Consulting GmbH, 10117 Berlin, Germany"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Srdan",
+        "family": "Dzombeta",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "EY Consulting GmbH, 10117 Berlin, Germany"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1551-419X",
+        "authenticated-orcid": false,
+        "given": "Vladimir",
+        "family": "Stantchev",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Information Systems Institute, SRH Heidelberg University, 69123 Heidelberg, Germany"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          26
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Al Ali, J., Nasir, Q., and Dweiri, F.T. (April, January 26). Business continuity management framework of Internet of Things (IoT). Proceedings of the 2019 Advances in Science and Engineering Technology International Conferences (ASET), Dubai, United Arab Emirates.",
+        "DOI": "10.1109/ICASET.2019.8714483"
+      },
+      {
+        "key": "ref_2",
+        "unstructured": "(2019). Security and Resilience—Business Continuity Management Systems—Requirements (Standard No. ISO 22301:2019)."
+      },
+      {
+        "key": "ref_3",
+        "unstructured": "(2020). Security and Resilience—Business Continuity Management Systems—Guidance on the use of ISO 22301 (Standard No. ISO 22313:2020)."
+      },
+      {
+        "key": "ref_4",
+        "first-page": "128",
+        "article-title": "A framework for business continuity management",
+        "volume": "26",
+        "author": "Gibb",
+        "year": "2006",
+        "journal-title": "Int. J. Inf. Manag."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "345",
+        "DOI": "10.1081/QEN-200059847",
+        "article-title": "Organizational dashboards: Steering an organization towards its mission",
+        "volume": "17",
+        "author": "Gitlow",
+        "year": "2005",
+        "journal-title": "Qual. Eng."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dey, M. (2011). Business Continuity Planning (BCP) methodology—Essential for every business. Proceedings of the 2011 IEEE GCC Conference and Exhibition (GCC), Dubai, United Arab Emirates, 19–22 February 2011, IEEE.",
+        "DOI": "10.1109/IEEEGCC.2011.5752503"
+      },
+      {
+        "key": "ref_7",
+        "unstructured": "(2022). Information security, Cybersecurity and Privacy Protection—Information Security Management Systems—Requirements (Standard No. ISO/IEC 27001:2022)."
+      },
+      {
+        "key": "ref_8",
+        "unstructured": "(2022). ISO/IEC Directives, Part 1: Consolidated ISO Supplement—Procedure for the Technical Work—Procedures Specific to ISO—Annex SL Harmonized Approach for Management System Standards, International Electrotechnical Commission."
+      },
+      {
+        "key": "ref_9",
+        "unstructured": "(2021). Security and resilience—Business Continuity Management Systems—Guidelines for Developing Business Continuity Plans and Procedures (Standard No. ISO/TS 22332:2021)."
+      },
+      {
+        "key": "ref_10",
+        "unstructured": "(2021). Security and Resilience—Business Continuity Management Systems—Guidelines for Business Impact Analysis (BIA) (Standard No. ISO/TS 22317:2021)."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Miller, H.E., and Engemann, K.J. (2022). Business continuity management in data center environments. Research Anthology on Business Continuity and Navigating Times of Crisis, IGI Global.",
+        "DOI": "10.4018/978-1-6684-4503-7.ch081"
+      },
+      {
+        "key": "ref_12",
+        "first-page": "123",
+        "article-title": "Maturity Models for Business Continuity—A Systematic Literature Review",
+        "volume": "1",
+        "author": "Pinto",
+        "year": "2022",
+        "journal-title": "Int. J. Saf. Secur. Eng."
+      },
+      {
+        "key": "ref_13",
+        "unstructured": "(2021). Information Technology—Guidance on Information Security Management System Processes (Standard No. ISO/IEC TS 27022:2021)."
+      },
+      {
+        "key": "ref_14",
+        "unstructured": "Stevenson, W.J., and Sum, C.C. (2014). Operations Management, McGraw-Hill/Irwin."
+      },
+      {
+        "key": "ref_15",
+        "unstructured": "International Organization for Standardization, and International Electrotechnical Commission (2018). ISO Handbook—The Integrated Use of Management System Standards (IUMSS), ISO."
+      },
+      {
+        "key": "ref_16",
+        "unstructured": "(2018). Information Technology—Security Techniques—Information Security Management Systems—Overview and Vocabulary (Standard No. ISO/IEC 27000:2018)."
+      },
+      {
+        "key": "ref_17",
+        "unstructured": "(2015). Quality Management Systems—Fundamentals and Vocabulary (Standard No. ISO 9000:2015)."
+      },
+      {
+        "key": "ref_18",
+        "unstructured": "Scheer, A.-W., and Nüttgens, M. (2002). ARIS architecture and reference models for business process management. Business Process Management: Models, Techniques, and Empirical Studies, Springer."
+      },
+      {
+        "key": "ref_19",
+        "unstructured": "(2015). Information Technology—Process Assessment—Requirements for Process Reference, Process Assessment and Maturity Models (Standard No. ISO/IEC 33004:2015)."
+      },
+      {
+        "key": "ref_20",
+        "unstructured": "(2015). Information Technology—Process Assessment—Requirements for Process Measurement Frameworks (Standard No. ISO/IEC 33003:2015)."
+      },
+      {
+        "key": "ref_21",
+        "unstructured": "(2025). Security and Resilience–Vocabulary (Standard No. ISO 22300:2025)."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lehto, M. (2022). Cyber-attacks against critical infrastructure. Cyber Security: Critical Infrastructure Protection, Springer.",
+        "DOI": "10.1007/978-3-030-91293-2"
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "1160",
+        "DOI": "10.1016/j.procs.2015.07.087",
+        "article-title": "A general supply chain continuity management framework",
+        "volume": "55",
+        "author": "Blos",
+        "year": "2015",
+        "journal-title": "Procedia Comput. Sci."
+      },
+      {
+        "key": "ref_24",
+        "first-page": "15",
+        "article-title": "Contemporary Threats to the Continuity of Transport Systems",
+        "volume": "34",
+        "author": "Jalowiec",
+        "year": "2017",
+        "journal-title": "Logist. Transp."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pardo, C., Pino, F.J., García, F., Piattini, M., and Baldassarre, M.T. (2010). A process for driving the harmonization of models. Proceedings of the 11th International Conference on Product Focused Software, Limerick, Ireland, 21–23 June 2010, Association for Computing Machinery.",
+        "DOI": "10.1145/1961258.1961271"
+      },
+      {
+        "key": "ref_26",
+        "first-page": "155",
+        "article-title": "Structure-mapping: A theoretical framework for analogy",
+        "volume": "7",
+        "author": "Gentner",
+        "year": "1983",
+        "journal-title": "Cogn. Sci."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1002/meet.2008.1450450210",
+        "article-title": "Explicit scientific knowledge comparison based on semantic description matching",
+        "volume": "45",
+        "author": "Guo",
+        "year": "2008",
+        "journal-title": "Proc. Am. Soc. Inf. Sci. Technol."
+      },
+      {
+        "key": "ref_28",
+        "unstructured": "Predoiu, L., Feier, C., Scharffe, F., de Bruijn, J., Martin-Recuerda, F., Manov, D., and Ehrig, M. (2005). D4.2.2 State-of-the-Art Survey on Ontology Merging and Aligning V2; EU-IST Integrated Project IST-2003-506826 SEKT, Digital Enterprise Research Institute, University of Innsbruck."
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "339",
+        "DOI": "10.1016/j.procs.2016.09.167",
+        "article-title": "ISMS core processes: A study",
+        "volume": "100",
+        "author": "Haufe",
+        "year": "2016",
+        "journal-title": "Procedia Comput. Sci."
+      },
+      {
+        "key": "ref_30",
+        "unstructured": "Slack, N., Chambers, S., and Johnston, R. (2010). Operations Management, Pearson Education."
+      },
+      {
+        "key": "ref_31",
+        "unstructured": "Information Systems Audit and Control Association (2013). COBIT 5 Process Assessment Model (PAM): Using COBIT 5, Information Systems Audit and Control Association."
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.5688/aj720111",
+        "article-title": "Best practices for survey research reports: A synopsis for authors and reviewers",
+        "volume": "72",
+        "author": "Draugalis",
+        "year": "2008",
+        "journal-title": "Am. J. Pharm. Educ."
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "76",
+        "DOI": "10.5770/cgj.17.111",
+        "article-title": "Consensus statements on the assessment of older drivers",
+        "volume": "17",
+        "author": "Hogan",
+        "year": "2014",
+        "journal-title": "Can. Geriatr. J."
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Blackley, J.A., Peltier, T.R., and Peltier, J. (2004). Information Security Fundamentals, Auerbach Publications.",
+        "DOI": "10.1201/9780203488652"
+      },
+      {
+        "key": "ref_35",
+        "first-page": "5",
+        "article-title": "Developing and enforcing internal information systems standards: InduMaker’s Standards Management Process",
+        "volume": "4",
+        "author": "Loebbecke",
+        "year": "2016",
+        "journal-title": "Int. J. Inf. Syst. Proj. Manag."
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "first-page": "85",
+        "DOI": "10.2307/2392388",
+        "article-title": "Toward an integration of organization research and practice: A contingency study of bureaucratic control and performance in scientific settings",
+        "volume": "28",
+        "author": "Cheng",
+        "year": "1983",
+        "journal-title": "Adm. Sci. Q."
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "first-page": "120142",
+        "DOI": "10.1016/j.eswa.2023.120142",
+        "article-title": "Introducing a novel multi-objective optimization model for volunteer assignment in the post-disaster phase: Combining fuzzy inference systems with NSGA-II and NRGA",
+        "volume": "226",
+        "author": "Rabiei",
+        "year": "2023",
+        "journal-title": "Expert Syst. Appl."
+      }
+    ],
+    "container-title": [
+      "Applied Sciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2076-3417/16/7/3219/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          27
+        ]
+      ],
+      "date-time": "2026-03-27T11:16:32Z",
+      "timestamp": 1774610192000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2076-3417/16/7/3219"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          26
+        ]
+      ]
+    },
+    "references-count": 37,
+    "journal-issue": {
+      "issue": "7",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            4
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "app16073219"
+    ],
+    "URL": "https://doi.org/10.3390/app16073219",
+    "relation": {},
+    "ISSN": [
+      "2076-3417"
+    ],
+    "issn-type": [
+      {
+        "value": "2076-3417",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          26
+        ]
+      ]
+    }
+  },
+  "saaty2008ahp": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          7
+        ]
+      ],
+      "date-time": "2026-10-07T04:40:58Z",
+      "timestamp": 1791348058730,
+      "version": "4.3.1"
+    },
+    "reference-count": 0,
+    "publisher": "Inderscience Publishers",
+    "issue": "1",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IJSSCI"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "DOI": "10.1504/ijssci.2008.017590",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2008,
+          3,
+          19
+        ]
+      ],
+      "date-time": "2008-03-19T08:30:21Z",
+      "timestamp": 1205915421000
+    },
+    "page": "83",
+    "source": "Crossref",
+    "is-referenced-by-count": 4992,
+    "title": [
+      "Decision making with the analytic hierarchy process"
+    ],
+    "prefix": "10.1504",
+    "volume": "1",
+    "author": [
+      {
+        "given": "Thomas L.",
+        "family": "Saaty",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "378",
+    "container-title": [
+      "International Journal of Services Sciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "deposited": {
+      "date-parts": [
+        [
+          2011,
+          8,
+          10
+        ]
+      ],
+      "date-time": "2011-08-10T20:03:35Z",
+      "timestamp": 1313006615000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://www.inderscience.com/link.php?id=17590"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2008
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1504/ijssci.2008.017590",
+    "relation": {},
+    "ISSN": [
+      "1753-1446",
+      "1753-1454"
+    ],
+    "issn-type": [
+      {
+        "value": "1753-1446",
+        "type": "print"
+      },
+      {
+        "value": "1753-1454",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "article-number": "17590"
+  },
+  "shahverdi2025recovery": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          29
+        ]
+      ],
+      "date-time": "2026-07-29T04:07:52Z",
+      "timestamp": 1785298072093,
+      "version": "3.55.0"
+    },
+    "reference-count": 28,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2024-07-01T00:00:00Z",
+          "timestamp": 1719792000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2024-07-01T00:00:00Z",
+          "timestamp": 1719792000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100014788",
+        "name": "Virginia Department of Transportation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100014788",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "OR Spectrum"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n          <jats:p>Critical societal services, such as health care, education, law enforcement, and emergency response, are key to societal well-being and safety. Disruption to these services may arise from direct damage to the buildings from which the services are provided, or indirectly as a consequence of damage to supporting lifelines. The order in which lifeline elements are restored post-disaster affects not only the timing for restoring the lifeline services to its customers, but also the timing for restoring critical services that rely on these lifelines. In this paper, a mathematical formulation of the problem of prioritizing critical societal services in lifeline service restoration treated by multiple, specialized crews and exact algorithmic approach for its solution are proposed. Two approaches to accelerate the solution algorithm for use in realistic settings, where efficiency and scalability are essential, are presented. The developed techniques can be embedded in a decision support tool for real-time application with real-time information. To illustrate the proposed modeling and solution methodology and assess its efficiency for large, complex multi-lifeline applications, numerical experiments were run on a synthetic yet real-world network involving three key lifelines, including power, water, and transportation, as well as two hospitals that rely on them. The analysis of this case study shows that cross-lifeline collaboration in prioritization and scheduling in restoration action affects not only the return of services from the individual lifelines, but also of critical services on which, particularly in disaster settings, lives may depend.</jats:p>",
+    "DOI": "10.1007/s00291-024-00777-9",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          2
+        ]
+      ],
+      "date-time": "2024-07-02T01:05:01Z",
+      "timestamp": 1719882301000
+    },
+    "page": "605-641",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Decision support for prioritizing critical societal services in optimal post-disaster critical lifeline recovery"
+    ],
+    "prefix": "10.1007",
+    "volume": "47",
+    "author": [
+      {
+        "given": "Bahar",
+        "family": "Shahverdi",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6849-2916",
+        "authenticated-orcid": false,
+        "given": "Elise",
+        "family": "Miller-Hooks",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shabtai",
+        "family": "Isaac",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          1
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "777_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "52",
+        "DOI": "10.1016/j.cor.2017.01.007",
+        "volume": "82",
+        "author": "V Akbari",
+        "year": "2017",
+        "unstructured": "Akbari V, Salman FS (2017) Multi-vehicle prize collecting arc routing for connectivity problem. Comput Oper Res 82:52–68",
+        "journal-title": "Comput Oper Res"
+      },
+      {
+        "key": "777_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1016/j.trb.2021.05.017",
+        "volume": "150",
+        "author": "V Akbari",
+        "year": "2021",
+        "unstructured": "Akbari V, Shiri D, Salman FS (2021) An online optimization approach to post-disaster road restoration. Trans Res Part B: Methodol 150:1–25",
+        "journal-title": "Trans Res Part B: Methodol"
+      },
+      {
+        "issue": "19",
+        "key": "777_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "9756",
+        "DOI": "10.3390/app12199756",
+        "volume": "12",
+        "author": "A Almaleh",
+        "year": "2022",
+        "unstructured": "Almaleh A, Tipper D, Al-Gahtani SF, El-Sehiemy R (2022) A novel model for enhancing the resilience of smart microGrids’ critical infrastructures with multi-criteria decision techniques. Appl Sci 12(19):9756",
+        "journal-title": "Appl Sci"
+      },
+      {
+        "key": "777_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "233",
+        "DOI": "10.1016/j.compchemeng.2016.11.011",
+        "volume": "103",
+        "author": "RM Apap",
+        "year": "2017",
+        "unstructured": "Apap RM, Grossmann IE (2017) Models and computational strategies for multistage stochastic programming under endogenous and exogenous uncertainties. Comput Chem Eng 103:233–274",
+        "journal-title": "Comput Chem Eng"
+      },
+      {
+        "key": "777_CR5",
+        "first-page": "42",
+        "volume": "8",
+        "author": "MS Chang",
+        "year": "2010",
+        "unstructured": "Chang MS, Li DC (2010) A sampling-based approximation method applied to stochastic real-time emergency rehabilitation scheduling problem. Int J Intell Transp Syst Res 8:42–55",
+        "journal-title": "Int J Intell Transp Syst Res"
+      },
+      {
+        "key": "777_CR6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tre.2023.103022",
+        "volume": "171",
+        "author": "KH Chang",
+        "year": "2023",
+        "unstructured": "Chang KH, Sheu JB, Chen YJ, Chang CH, Liu CH (2023) Practice-based post-disaster road network connectivity analysis using a data-driven percolation theory-based method. Transp Res Part E: Logist Transp Rev 171:103022",
+        "journal-title": "Transp Res Part E: Logist Transp Rev"
+      },
+      {
+        "key": "777_CR7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2011/874526",
+        "author": "HK Chen",
+        "year": "2011",
+        "unstructured": "Chen HK, Chou HW, Ho PS, Wang H (2011) Real-time vehicle routing for repairing damaged infrastructures due to natural disasters. Math Probl Eng. https://doi.org/10.1155/2011/874526",
+        "journal-title": "Math Probl Eng"
+      },
+      {
+        "issue": "4",
+        "key": "777_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "04019013",
+        "DOI": "10.1061/(ASCE)ME.1943-5479.0000697",
+        "volume": "35",
+        "author": "J Choi",
+        "year": "2019",
+        "unstructured": "Choi J, Naderpajouh N, Yu DJ, Hastak M (2019) Capacity building for an infrastructure system in case of disaster using the system’s associated social and technical components. J Manag Eng 35(4):04019013",
+        "journal-title": "J Manag Eng"
+      },
+      {
+        "issue": "28",
+        "key": "777_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "5",
+        "DOI": "10.15623/ijret.2014.0328002",
+        "volume": "3",
+        "author": "A Deshmukh",
+        "year": "2014",
+        "unstructured": "Deshmukh A, Hastak M (2014) Enhancing post disaster recovery by optimal infrastructure capacity building. Int J Res Eng Technol 3(28):5–12",
+        "journal-title": "Int J Res Eng Technol"
+      },
+      {
+        "key": "777_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "79",
+        "DOI": "10.1016/j.ress.2017.01.026",
+        "volume": "163",
+        "author": "H Fotouhi",
+        "year": "2017",
+        "unstructured": "Fotouhi H, Moryadee S, Miller-Hooks E (2017) Quantifying the resilience of an urban traffic-electric power coupled system. Reliab Eng Syst Saf 163:79–94",
+        "journal-title": "Reliab Eng Syst Saf"
+      },
+      {
+        "key": "777_CR11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00291-021-00644-x",
+        "author": "J García-Alviz",
+        "year": "2021",
+        "unstructured": "García-Alviz J, Galindo G, Arellana J, Yie-Pinedo R (2021) Planning road network restoration and relief distribution under heterogeneous road disruptions. Or Spectr. https://doi.org/10.1007/s00291-021-00644-x",
+        "journal-title": "Or Spectr"
+      },
+      {
+        "issue": "S10",
+        "key": "777_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "S70",
+        "DOI": "10.5694/j.1326-5377.2006.tb00712.x",
+        "volume": "185",
+        "author": "RL Itzwerth",
+        "year": "2006",
+        "unstructured": "Itzwerth RL, MacIntyre CR, Shah S, Plant AJ (2006) Pandemic influenza and critical infrastructure dependencies: possible impact on hospitals. Med J Aust 185(S10):S70–S72",
+        "journal-title": "Med J Aust"
+      },
+      {
+        "key": "777_CR13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijdrr.2019.101228",
+        "volume": "38",
+        "author": "DB Karakoc",
+        "year": "2019",
+        "unstructured": "Karakoc DB, Almoghathawi Y, Barker K, González AD, Mohebbi S (2019) Community resilience-driven restoration model for interdependent infrastructure networks. Int J Disaster Risk Reduct 38:101228",
+        "journal-title": "Int J Disaster Risk Reduct"
+      },
+      {
+        "key": "777_CR14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ress.2021.107538",
+        "volume": "210",
+        "author": "J Kong",
+        "year": "2021",
+        "unstructured": "Kong J, Zhang C, Simonovic SP (2021) Optimizing the resilience of interdependent infrastructures to regional natural hazards with combined improvement measures. Reliab Eng Syst Saf 210:107538",
+        "journal-title": "Reliab Eng Syst Saf"
+      },
+      {
+        "key": "777_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "525",
+        "DOI": "10.1007/s00291-011-0247-2",
+        "volume": "33",
+        "author": "P Maya Duque",
+        "year": "2011",
+        "unstructured": "Maya Duque P, Sörensen K (2011) A GRASP metaheuristic to improve accessibility after a disaster. Or Spectr 33:525–542",
+        "journal-title": "Or Spectr"
+      },
+      {
+        "issue": "1",
+        "key": "777_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "43",
+        "DOI": "10.1080/24725854.2022.2070801",
+        "volume": "55",
+        "author": "E Miller-Hooks",
+        "year": "2023",
+        "unstructured": "Miller-Hooks E (2023) Constructs in infrastructure resilience framing–from components to community services and the built and human infrastructures on which they rely. IISE Trans 55(1):43–56",
+        "journal-title": "IISE Trans"
+      },
+      {
+        "issue": "2",
+        "key": "777_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "04020015",
+        "DOI": "10.1061/(ASCE)IS.1943-555X.0000548",
+        "volume": "26",
+        "author": "D Mitsova",
+        "year": "2020",
+        "unstructured": "Mitsova D, Sapat A, Esnard AM, Lamadrid AJ (2020) Evaluating the impact of infrastructure interdependencies on the emergency services sector and critical support functions using an expert opinion survey. J Infrastruct Syst 26(2):04020015",
+        "journal-title": "J Infrastruct Syst"
+      },
+      {
+        "issue": "4",
+        "key": "777_CR18",
+        "first-page": "272",
+        "volume": "33",
+        "author": "A Ojha",
+        "year": "2021",
+        "unstructured": "Ojha A, Long S, Shoberg T, Corns S (2021) Bottom-up resource and cost estimation for restoration of supply chain interdependent critical infrastructure. Eng Manag J 33(4):272–282",
+        "journal-title": "Eng Manag J"
+      },
+      {
+        "issue": "5",
+        "key": "777_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "67",
+        "DOI": "10.3390/infrastructures7050067",
+        "volume": "7",
+        "author": "M Sathurshan",
+        "year": "2022",
+        "unstructured": "Sathurshan M, Saja A, Thamboo J, Haraguchi M, Navaratnam S (2022) Resilience of critical infrastructure systems: a systematic literature review of measurement frameworks. Infrastructures 7(5):67",
+        "journal-title": "Infrastructures"
+      },
+      {
+        "key": "777_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "352",
+        "DOI": "10.1016/j.trb.2020.05.011",
+        "volume": "138",
+        "author": "HR Sayarshad",
+        "year": "2020",
+        "unstructured": "Sayarshad HR, Du X, Gao HO (2020) Dynamic post-disaster debris clearance problem with re-positioning of clearance equipment items under partially observable information. Transp Res Part B: Methodol 138:352–372",
+        "journal-title": "Transp Res Part B: Methodol"
+      },
+      {
+        "issue": "1",
+        "key": "777_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "04022037",
+        "DOI": "10.1061/(ASCE)NH.1527-6996.0000599",
+        "volume": "24",
+        "author": "B Shahverdi",
+        "year": "2023",
+        "unstructured": "Shahverdi B, Miller-Hooks E (2023) Scheduling inspection and restoration action in postdisaster critical lifeline recovery through stochastic optimization with endogenous uncertainty. Nat Hazard Rev 24(1):04022037",
+        "journal-title": "Nat Hazard Rev"
+      },
+      {
+        "key": "777_CR22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.trd.2020.102455",
+        "volume": "85",
+        "author": "J Sun",
+        "year": "2020",
+        "unstructured": "Sun J, Zhang Z (2020) A post-disaster resource allocation framework for improving resilience of interdependent infrastructure networks. Transp Res Part D: Transp Environ 85:102455",
+        "journal-title": "Transp Res Part D: Transp Environ"
+      },
+      {
+        "issue": "1",
+        "key": "777_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "04018044",
+        "DOI": "10.1061/(ASCE)IS.1943-555X.0000465",
+        "volume": "25",
+        "author": "M Tariverdi",
+        "year": "2019",
+        "unstructured": "Tariverdi M, Fotouhi H, Moryadee S, Miller-Hooks E (2019) Health care system disaster-resilience optimization given its reliance on interdependent critical lifelines. J Infrastruct Syst 25(1):04018044",
+        "journal-title": "J Infrastruct Syst"
+      },
+      {
+        "key": "777_CR24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijdrr.2022.103031",
+        "volume": "76",
+        "author": "M Vatenmacher",
+        "year": "2022",
+        "unstructured": "Vatenmacher M, Svoray T, Tsesarsky M, Isaac S (2022) Performance-driven vulnerability analysis of infrastructure systems. Int J Disaster Risk Reduct 76:103031",
+        "journal-title": "Int J Disaster Risk Reduct"
+      },
+      {
+        "issue": "2",
+        "key": "777_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "100",
+        "DOI": "10.1016/j.ijcip.2014.04.002",
+        "volume": "7",
+        "author": "A Yates",
+        "year": "2014",
+        "unstructured": "Yates A (2014) A framework for studying mortality arising from critical infrastructure loss. Int J Crit Infrastruct Prot 7(2):100–111",
+        "journal-title": "Int J Crit Infrastruct Prot"
+      },
+      {
+        "key": "777_CR26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ssci.2020.105079",
+        "volume": "134",
+        "author": "F Yuan",
+        "year": "2021",
+        "unstructured": "Yuan F, Liu R, Mao L, Li M (2021) Internet of people enabled framework for evaluating performance loss and resilience of urban critical infrastructures. Saf Sci 134:105079",
+        "journal-title": "Saf Sci"
+      },
+      {
+        "issue": "1",
+        "key": "777_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "04020046",
+        "DOI": "10.1061/(ASCE)IS.1943-555X.0000592",
+        "volume": "27",
+        "author": "Z Zhang",
+        "year": "2021",
+        "unstructured": "Zhang Z, Wei HH (2021) Modeling interaction of emergency inspection routing and restoration scheduling for postdisaster resilience of highway–bridge networks. J Infrastruct Syst 27(1):04020046",
+        "journal-title": "J Infrastruct Syst"
+      },
+      {
+        "issue": "1",
+        "key": "777_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1016/S0968-090X(00)00043-7",
+        "volume": "10",
+        "author": "KG Zografos",
+        "year": "2002",
+        "unstructured": "Zografos KG, Androutsopoulos KN, Vasilakis GM (2002) A real-time decision support system for roadway network incident response logistics. Transp Res Part C: Emerg Technol 10(1):1–18",
+        "journal-title": "Transp Res Part C: Emerg Technol"
+      }
+    ],
+    "container-title": [
+      "OR Spectrum"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s00291-024-00777-9.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s00291-024-00777-9/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s00291-024-00777-9.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          7
+        ]
+      ],
+      "date-time": "2025-06-07T19:18:19Z",
+      "timestamp": 1749323899000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/s00291-024-00777-9"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          1
+        ]
+      ]
+    },
+    "references-count": 28,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "777"
+    ],
+    "URL": "https://doi.org/10.1007/s00291-024-00777-9",
+    "relation": {},
+    "ISSN": [
+      "0171-6468",
+      "1436-6304"
+    ],
+    "issn-type": [
+      {
+        "value": "0171-6468",
+        "type": "print"
+      },
+      {
+        "value": "1436-6304",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "25 June 2023",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "17 June 2024",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "1 July 2024",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations"
+        }
+      },
+      {
+        "value": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+        "order": 2,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Conflict of interest"
+        }
+      }
+    ]
+  },
+  "venable2016feds": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          7
+        ]
+      ],
+      "date-time": "2026-10-07T12:57:40Z",
+      "timestamp": 1791377860602,
+      "version": "4.3.2"
+    },
+    "reference-count": 28,
+    "publisher": "Informa UK Limited",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2016,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2016-01-01T00:00:00Z",
+          "timestamp": 1451606400000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "http://www.springer.com/tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.tandfonline.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "European Journal of Information Systems"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2016,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1057/ejis.2014.36",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          11,
+          11
+        ]
+      ],
+      "date-time": "2014-11-11T04:40:39Z",
+      "timestamp": 1415680839000
+    },
+    "page": "77-89",
+    "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+    "source": "Crossref",
+    "is-referenced-by-count": 873,
+    "title": [
+      "FEDS: a Framework for Evaluation in Design Science Research"
+    ],
+    "prefix": "10.1080",
+    "volume": "25",
+    "author": [
+      {
+        "given": "John",
+        "family": "Venable",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Information Systems, Curtin University Perth Western Australia Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jan",
+        "family": "Pries-Heje",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Roskilde University Roskilde Denmark"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Richard",
+        "family": "Baskerville",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Information Systems, Curtin University Perth Western Australia Australia"
+          },
+          {
+            "name": "Georgia State University Atlanta Georgia USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "301",
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          19
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "2",
+        "key": "CIT0001",
+        "doi-asserted-by": "crossref",
+        "first-page": "161",
+        "DOI": "10.2307/25148632",
+        "volume": "28",
+        "author": "Albert TC",
+        "year": "2004",
+        "journal-title": "MIS Quarterly"
+      },
+      {
+        "key": "CIT0003",
+        "volume-title": "Design Management. Managing Design Strategy, Process and Implementation",
+        "author": "Best K",
+        "year": "2006"
+      },
+      {
+        "key": "CIT0004",
+        "volume-title": "Soft systems Methodology in Practice",
+        "author": "Checkland P",
+        "year": "1990"
+      },
+      {
+        "key": "CIT0005",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1287/isre.3.1.60"
+      },
+      {
+        "issue": "6",
+        "key": "CIT0006",
+        "first-page": "101",
+        "volume": "65",
+        "author": "Garvin D",
+        "year": "1987",
+        "journal-title": "Harvard Business Review"
+      },
+      {
+        "issue": "2",
+        "key": "CIT0007",
+        "first-page": "5-1",
+        "volume": "4",
+        "author": "Gill TG",
+        "year": "2013",
+        "journal-title": "ACM Transactions on Management Information Systems (TMIS)"
+      },
+      {
+        "issue": "5",
+        "key": "CIT0008",
+        "doi-asserted-by": "crossref",
+        "first-page": "312",
+        "DOI": "10.17705/1jais.00129",
+        "volume": "8",
+        "author": "Gregor S",
+        "year": "2007",
+        "journal-title": "Journal of the Association for Information Systems"
+      },
+      {
+        "key": "CIT0009",
+        "volume-title": "Qualitative Methods in Management Research",
+        "author": "Gummesson E",
+        "year": "1988"
+      },
+      {
+        "issue": "1",
+        "key": "CIT0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "75",
+        "DOI": "10.2307/25148625",
+        "volume": "28",
+        "author": "Hevner A",
+        "year": "2004",
+        "journal-title": "MIS Quarterly"
+      },
+      {
+        "key": "CIT0011",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1057/palgrave.ejis.3000411"
+      },
+      {
+        "key": "CIT0012",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1057/palgrave.ejis.3000540"
+      },
+      {
+        "issue": "6",
+        "key": "CIT0014",
+        "doi-asserted-by": "crossref",
+        "first-page": "395",
+        "DOI": "10.17705/1jais.00300",
+        "volume": "13",
+        "author": "Kuechler W",
+        "year": "2012",
+        "journal-title": "Journal of the Association for Information Systems"
+      },
+      {
+        "key": "CIT0015",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0167-9236(94)00041-2"
+      },
+      {
+        "key": "CIT0016",
+        "volume-title": "Object Oriented Analysis & Design",
+        "author": "Mathiassen L",
+        "year": "2000"
+      },
+      {
+        "key": "CIT0017",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/07421222.1990.11517898"
+      },
+      {
+        "key": "CIT0018",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2753/MIS0742-1222240302"
+      },
+      {
+        "key": "CIT0020",
+        "volume-title": "IT Investment: Making a Business Case",
+        "author": "Remenyi D",
+        "year": "1999"
+      },
+      {
+        "issue": "1",
+        "key": "CIT0021",
+        "doi-asserted-by": "crossref",
+        "first-page": "37",
+        "DOI": "10.2307/23043488",
+        "volume": "35",
+        "author": "Sein MK",
+        "year": "2011",
+        "journal-title": "MIS Quarterly"
+      },
+      {
+        "key": "CIT0022",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1057/palgrave.ejis.3000304"
+      },
+      {
+        "key": "CIT0023",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1057/palgrave.ejis.3000407"
+      },
+      {
+        "key": "CIT0024",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ejor.2005.07.006"
+      },
+      {
+        "key": "CIT0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "31",
+        "DOI": "10.1007/978-94-010-0309-4_4",
+        "volume-title": "International Handbook of Educational Evaluation",
+        "author": "Stufflebeam DL",
+        "year": "2003"
+      },
+      {
+        "key": "CIT0026",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/asi.20324"
+      },
+      {
+        "key": "CIT0027",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1057/ejis.1991.35"
+      },
+      {
+        "key": "CIT0030",
+        "volume-title": "7th International Conference on Design Science Research in Information Systems & Technology (DESRIST 2012)",
+        "author": "Venable JR",
+        "year": "2012"
+      },
+      {
+        "key": "CIT0031",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1287/isre.3.1.36"
+      },
+      {
+        "key": "CIT0032",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/0141192960220502"
+      },
+      {
+        "key": "CIT0033",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/07421222.2000.11045653"
+      }
+    ],
+    "container-title": [
+      "European Journal of Information Systems"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1057/ejis.2014.36.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/article/10.1057/ejis.2014.36/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.tandfonline.com/doi/pdf/10.1057/ejis.2014.36",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      },
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1057/ejis.2014.36.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          17
+        ]
+      ],
+      "date-time": "2019-08-17T02:29:48Z",
+      "timestamp": 1566008988000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.tandfonline.com/doi/full/10.1057/ejis.2014.36"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          1
+        ]
+      ]
+    },
+    "references-count": 28,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2017,
+            12,
+            19
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2016,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1057/ejis.2014.36"
+    ],
+    "URL": "https://doi.org/10.1057/ejis.2014.36",
+    "relation": {},
+    "ISSN": [
+      "0960-085X",
+      "1476-9344"
+    ],
+    "issn-type": [
+      {
+        "value": "0960-085X",
+        "type": "print"
+      },
+      {
+        "value": "1476-9344",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+        "order": 1,
+        "name": "peerreview_statement",
+        "label": "Peer Review Statement"
+      },
+      {
+        "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=tjis20",
+        "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=tjis20",
+        "order": 2,
+        "name": "aims_and_scope_url",
+        "label": "Aim & Scope"
+      }
+    ]
+  },
+  "saleem2008bcin": {
+    "error": "HTTP Error 404: Not Found",
+    "DOI": "10.1145/1367832.1367852"
+  }
+}

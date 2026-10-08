@@ -1,0 +1,12 @@
+% Compile from repository root with latexmk.
+\documentclass[12pt,a4paper,oneside]{report}
+\input{packages.tex}
+\begin{document}
+\doublespacing
+\setcounter{chapter}{1}
+\input{chapters/literaturereview.tex}
+\clearpage
+\singlespacing
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

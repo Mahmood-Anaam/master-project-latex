@@ -1,2 +1,316 @@
 \chapter{Literature Review}
-The literature review chapter should include a fully referenced review of existing literature related to the thesis topic. It should be comprehensive and must include the latest research in the field. The survey of literature may include (journal articles, conference papers, and book chapters) on the relevant areas of the thesis topic.
+\label{ch:literature-review}
+
+\section{Purpose and Organization of the Review}
+
+Service recovery is a decision problem before it becomes a software problem. An organization must understand which interruptions threaten its objectives, how quickly their consequences become unacceptable, and which supporting services must be available for recovery to succeed. A dashboard can communicate the resulting decisions, but its usefulness depends on the reasoning behind them. The purpose of this chapter is therefore to examine the foundations and existing approaches for determining recovery requirements and priorities, rather than to treat the collection of continuity information as the principal contribution of the project.
+
+The review proceeds from the organizational context of business continuity management (BCM) to business impact analysis (BIA), recovery requirements, and service dependencies. It then examines analytical methods and identifiable information systems, followed by research methods suitable for developing and evaluating a decision-support artifact. The final sections compare the evidence and identify a bounded research opportunity for the proposed rule-based methodology. The chapter supports the question introduced in Chapter~1: how a rule-based decision-support methodology can determine service recovery priorities and appropriate recovery requirements from time-dependent business impact and service dependencies.
+
+\subsection{Review Questions and Selection Approach}
+
+Four questions guide the review. What distinguishes business tolerance from a recovery target and an achievable recovery capability? How do existing methods translate impact assessments into recovery-related decisions? How do existing systems represent dependencies and communicate decision results? What evidence would be needed to evaluate a methodology that combines these functions? These questions determine the comparison criteria used later in the chapter.
+
+A structured critical review was undertaken using combinations of terms including ``business impact analysis'', ``business continuity information system'', ``recovery time objective'', ``maximum tolerable period of disruption'', ``recovery prioritization'', ``service dependencies'', ``process mining'', and ``design science evaluation''. Publisher pages, DOI records, institutional repositories, and author-hosted publications were used to locate primary sources. Reference lists were also examined to identify earlier approaches. Searches and source-access decisions are recorded in the accompanying study notes. The search was completed on 8 October 2026; publication dates were checked against the articles themselves rather than the dates assigned by search engines.
+
+Nine full-text sources were selected for detailed synthesis. They include a technical guidance report, analytical and methodological contributions, a continuity information-system framework, implemented tools, and a recent BCM process reference model. Sources were included when their full text was accessible and their methods, outputs, or evaluation directly informed the review questions. Historical contributions were retained where they established a relevant method or system; recent publications were included to examine subsequent developments. The technical report provides authoritative guidance but is not treated as an experimental study. Likewise, conceptual frameworks are distinguished from implemented and evaluated systems.
+
+This review does not claim the completeness of an exhaustive systematic review. Full-text availability affects its coverage, and studies located only through abstracts are not used to establish detailed limitations or system capabilities. The inclusion of nine sources is also not a count of all research in BCM. It defines the evidence examined closely for this chapter. Separate Markdown notes document the method, findings, limitations, and project implications for each included source. These notes distinguish statements reported by authors from interpretations developed during this review.
+
+\section{Business Continuity as an Organizational Capability}
+
+\subsection{The Relationship Between Management Processes and Software}
+
+BCM concerns the continued delivery of products and services at acceptable levels following disruption. Its management context includes policy, ownership, impact assessment, continuity strategies, plans, exercises, and improvement. The process reference model developed by Arias-Aranda et al. identifies 22 BCM processes through standards mapping and expert consultation, with a subsequent public-sector pilot. It distinguishes management, core, and supporting processes and emphasizes the relationships between their inputs and outputs \cite{reference2026processes}. A software application can support these relationships, but a collection of screens does not itself establish an organizational continuity capability.
+
+This distinction matters for the proposed project. A service record may contain an owner, impact ratings, dependencies, and a recovery target. Those fields become useful only when the organization has agreed what the ratings mean, who may approve a target, and when the information must be reviewed. The reasoning process therefore depends on both represented knowledge and accountable decisions. In information systems terms, the artifact must connect data, decision rules, users, and organizational responsibilities. The proposed methodology belongs within this setting; it cannot replace the authority that determines acceptable business outcomes.
+
+The reference-model study also illustrates why agreement about process relevance should not be interpreted as validation of a calculation. Its questionnaire was sent to 47 German specialists and received 39 responses. BIA, recovery, and exercises were recognized by all respondents. Other processes were retained through further standards interpretation even when they did not reach the authors' consensus threshold \cite{reference2026processes}. These results support the relevance of the processes. They do not demonstrate that a particular impact threshold, recovery-time formula, or ranking rule is correct for another organization.
+
+\subsection{Risk Assessment, Impact Analysis, and Recovery Planning}
+
+Risk assessment and BIA address related questions at different points in continuity reasoning. Risk assessment considers threats, vulnerabilities, consequences, and likelihood. BIA examines the consequences of losing the ability to perform a function or deliver a service. Quinn et al. explain how business impact information can inform risk prioritization while preserving a distinction between impact records and risk records \cite{quinn2025bia}. This prevents the probability of an incident from becoming a substitute for the significance of a service interruption.
+
+The distinction can be illustrated without assuming any organizational data. A service may be difficult to disrupt but cause unacceptable harm rapidly once interrupted. Its low estimated incident likelihood does not necessarily justify a long recovery target. Conversely, a frequently interrupted service may have a tolerable workaround. A recovery methodology should therefore explain whether it is determining conditional business tolerance, ranking risks, or allocating mitigation expenditure. Mixing these decisions in a single unexplained score makes the meaning of the output difficult to assess.
+
+Recovery planning addresses the actions and resources needed to satisfy recovery requirements. It includes the selection of strategies, allocation of responsibilities, and preparation of procedures. The reviewed process reference model places documented and approved continuity requirements upstream of strategy selection and plan development \cite{reference2026processes}. The implication is a direction of reasoning: desired business outcomes inform recovery arrangements, after which the feasibility of those arrangements must be examined. An organization should not define acceptable disruption solely by copying what its current technical infrastructure happens to deliver.
+
+\subsection{Governance and the Boundaries of the Project}
+
+Quinn et al. recommend organization-specific criteria that connect business consequences to mission objectives and leadership priorities. They discuss quantitative and qualitative impacts, iterative engagement between organizational levels, and the need for consistent records \cite{quinn2025bia}. These features are relevant to a rule-based methodology because rules need a legitimate basis. A mathematically precise rule can still be inappropriate if its underlying threshold does not reflect the service context.
+
+The present IS595 project is situated at the proposal stage. It seeks to establish the conceptual basis and requirements for a methodology and its future software realization. It does not claim that continuity arrangements have been implemented, that an organization has approved its criteria, or that recovery performance has improved. Implementation and empirical evaluation belong to the subsequent IS597 stage. This boundary also limits the claims that can follow from the literature: the sources justify design choices and evaluation questions, while the effectiveness of the proposed artifact remains to be established.
+
+\section{Business Impact Analysis and Recovery Requirements}
+
+\subsection{The Unit of Analysis}
+
+A useful BIA begins with a clear unit of analysis. A service is an outcome delivered to a user or stakeholder; a business process coordinates activities that contribute to that outcome; a supporting resource enables those activities. These concepts can overlap in organizational language, but they should be distinguished in the analytical model. Otherwise, an assessment may compare a customer-facing service with a server or a departmental activity as though they were equivalent recovery objects.
+
+The reviewed literature works at several levels. Idrees et al. examine continuity activities and institutional functions, Podaras et al. focus on IT business functions and their recovery exercises, Raptaki et al. analyze activities reconstructed from event logs, and Shahverdi et al. prioritize societal services supported by infrastructure lifelines \cite{idrees2019bcis,podaras2016tools,raptaki2025propagation,shahverdi2025recovery}. This variation is not a weakness in itself. It reflects different research problems. It does, however, limit direct comparisons between outputs: an activity's propagated impact score and a hospital's restoration schedule are not interchangeable measures of service criticality.
+
+For the proposed methodology, services provide the primary decision objects, with supporting activities and resources recorded through explicit relationships. This is a project interpretation of the reviewed approaches, rather than a universal prescription from a single study. It allows the methodology to ask what business outcome is interrupted before asking which component must be restored. It also creates a basis for explaining why a supporting service may receive an earlier recovery requirement despite having limited direct visibility to users.
+
+\subsection{Impact Domains and Organizational Criteria}
+
+Business consequences may include financial loss, operational interruption, failure to fulfill commitments, reputational damage, or harm to mission objectives. Quinn et al. emphasize that organizations should select impact criteria suited to their context and establish how those criteria inform prioritization \cite{quinn2025bia}. A fixed list of domains is consequently a starting point for discussion, not proof that every domain has the same significance in every setting.
+
+A financial consequence can sometimes be estimated in monetary terms, while operational or reputational consequences may require descriptive categories. The analytical difficulty is not resolved by assigning numbers to all categories. If ``minor'', ``moderate'', and ``major'' are coded as 1, 2, and 3, the code establishes an order; it does not automatically establish equal intervals or a meaningful exchange rate between domains. Before combining scores, the methodology must state what operations on those scores are justified.
+
+This distinction becomes particularly relevant when some criteria are mandatory. A weighted average can allow low impacts in several domains to offset a serious consequence in another. Whether that compensation is acceptable is a governance decision. The proposed matrix should therefore distinguish descriptive impact assessment, criteria that may be aggregated, and conditions requiring separate review. This design implication follows from the need to make the decision meaning explicit; it should not be presented as an empirically validated property of the proposed methodology.
+
+An impact assessment also needs evidence. Owners may use workload records, service commitments, incident experience, or documented expert judgment. A rule can make the treatment of an assessment consistent, but it cannot make an unsupported assessment correct. Input provenance and the rationale for a rating are therefore part of the decision record. Where evidence is incomplete, the output should communicate the limitation rather than imply that the presence of a numerical score guarantees confidence.
+
+\subsection{Time-Dependent Impact Profiles}
+
+An interruption has a duration, and its consequences can change over that duration. Some consequences arise almost immediately; others increase after a backlog develops or a deadline is missed. Quinn et al. discuss the timing and duration of adverse consequences, including situations where partial degradation and operational context affect the impact \cite{quinn2025bia}. This provides a basis for assessing more than one elapsed-time point.
+
+A time-dependent impact profile records the assessed consequences for a service at specified interruption durations under a defined scenario. It should identify the service, affected outcome, assumptions, available workarounds, and relevant operating conditions. The time points are assessment horizons rather than automatically assigned recovery categories. Their selection should provide enough detail near decision boundaries to support the intended interpretation.
+
+The temporal distinction is essential for priority decisions. Two services can have the same impact category after a long interruption but reach that category at different times. A single final score would hide their different urgency. Conversely, a consequence may depend on a business deadline rather than elapsed duration alone. An assessment conducted during routine operations may not represent the same service near a reporting or transaction deadline. The methodology must state the context in which the profile applies.
+
+Discrete assessments also create uncertainty between observations. If an impact is acceptable at one horizon and unacceptable at the next, the precise transition time has not necessarily been measured. Reporting the later horizon as an exact tolerance limit would overstate the evidence. A defensible rule may retain the interval, request another assessment, or apply a documented conservative convention. The literature reviewed here motivates the problem, but does not establish one universally correct interpolation rule.
+
+\subsection{Tolerance, Target, Capability, and Data Loss}
+
+Recovery terminology must preserve the distinction between what the business can tolerate and what recovery arrangements can achieve. In this project, maximum tolerable period of disruption (MTPD) concerns the duration beyond which the consequences of an interruption become unacceptable. Recovery time objective (RTO) specifies the targeted elapsed time for resuming the relevant activity or service level. Recovery capability concerns the duration that a particular strategy can achieve under specified conditions. These are related quantities, but they answer different questions.
+
+Podaras et al. explicitly compare estimated recovery effort with RTO and maximum acceptable outage values, while Idrees et al. include MTPD, RTO, recovery point objective (RPO), and minimum business continuity objective (MBCO) in their BIA framework \cite{podaras2016tools,idrees2019bcis}. Their inclusion demonstrates that recovery-related parameters already feature in prior work. The review therefore asks how the parameters are determined and evaluated, rather than treating their presence in the proposed system as sufficient novelty.
+
+An RTO must be interpreted with a recovery level. Resuming a limited service using a workaround is different from restoring all normal operations. A statement of time without the intended output level can consequently be ambiguous. RPO concerns acceptable loss of data measured with reference to a point in time; it should not be inferred merely from how long a service can remain unavailable. A service may tolerate an interruption while requiring very little data loss, or resume rapidly while needing substantial data reconciliation.
+
+For the present project, MTPD and RTO remain the central recovery requirements. RPO and minimum service levels provide context where relevant, but a comprehensive data-replication or continuity-strategy design is outside the chapter's scope. Table~\ref{tab:recovery-concepts} summarizes the distinctions used in the review. The table is an analytical synthesis, not a reproduction of a standard or a declaration that the proposed methodology has already resolved these decisions.
+
+\begin{table}[htbp]
+\centering
+\caption{Recovery concepts and their different decision roles}
+\label{tab:recovery-concepts}
+\begin{spacing}{1}
+\small
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+Concept & Decision question & Evidence or qualification needed \\
+\midrule
+MTPD & When do interruption consequences become unacceptable? & Time-dependent impacts and approved tolerance criteria. \\
+RTO & By when should the defined service level resume? & Tolerance boundary, required recovery level, and documented recovery criteria. \\
+Recovery capability & Can the chosen strategy meet the target? & Resource assumptions, recovery procedure, exercise or operational evidence. \\
+RPO & What data-loss interval is acceptable? & Data integrity and loss requirements assessed separately from downtime. \\
+Minimum service level & What output counts as acceptable resumption? & Specified capacity, users, activities, or essential outcomes. \\
+\bottomrule
+\end{tabularx}
+\end{spacing}
+\end{table}
+
+A further issue is the treatment of infeasibility. If an approved recovery target is shorter than the duration achievable by an existing strategy, replacing the target with the achievable duration would conceal the gap between business need and capability. A decision-support method should expose that gap for resolution. Possible responses include changing the strategy, improving resources, examining a workaround, or seeking an authorized revision of assumptions. Which response is appropriate cannot be settled by a ranking score alone.
+
+\section{Analytical Approaches to Recovery Decisions}
+
+\subsection{Business Continuity Testing Points}
+
+Podaras et al. propose Business Continuity Testing Points (BCTP), adapting the use-case points approach to recovery analysis. Their method distinguishes human and application actors, business-process complexity, and technical, environmental, and unexpected recovery factors. Rank-order centroid weighting is used to assign factor weights, and illustrative calculations connect recovery points with recovery effort and exercise categories \cite{podaras2016tools}. This is a relevant predecessor because it moves beyond storing recovery parameters toward explicit analytical treatment.
+
+The method's value for this review is its separation of factors affecting recovery and its attempt to document how they enter a calculation. Its limitations also matter. Practical testing in real companies is identified as future work. Agreement between illustrative outputs and selected time categories is therefore weaker evidence than comparison with independently observed recovery exercises. The paper also uses a decreasing relationship between recovery points and expected recovery time, justified by the need to recover more critical functions sooner. That expresses an intended recovery urgency; it does not by itself show that complex recovery tasks can actually be completed faster.
+
+The distinction informs the proposed methodology in two ways. First, recovery requirements and recovery capability should be represented separately. Second, any mapping from impact or criticality to a time requirement should state its assumptions and the evidence needed to evaluate them. The fixed time categories used in an illustrative method should not be transferred into a different organizational setting as universal tolerances. Transparent calculation is valuable, but transparency and contextual validity are separate properties.
+
+\subsection{Multicriteria Prioritization}
+
+The analytic hierarchy process (AHP) provides a theoretical basis for structuring a decision into a goal, criteria, and alternatives. Saaty describes pairwise comparisons, the derivation of relative priorities, attention to judgment inconsistency, and the synthesis of priorities across a hierarchy \cite{saaty2008ahp}. The method is relevant where stakeholders must make trade-offs between criteria whose importance cannot be determined through direct measurement alone.
+
+However, an AHP priority is a relative result within a specified decision structure. It is not automatically an elapsed recovery time. If a service has twice the priority of another, that result does not establish that it should recover in half the time. An additional, justified relationship between priorities and recovery requirements would be needed. Likewise, judgment consistency addresses the relationships between elicited comparisons; it does not establish that the selected criteria fully represent business consequences.
+
+AHP is consequently considered a possible comparison approach rather than an obligatory component of the proposed methodology. It helps distinguish preference elicitation from the enforcement of tolerance criteria. A rule-based method may be useful where stakeholders require an explicit explanation of why an impact condition triggers a decision. A multicriteria method may be useful where trade-offs are accepted and relative ordering is the principal outcome. The choice should follow the decision requirements, and any hybrid should explain which part of the result comes from thresholds and which comes from preferences.
+
+The number of comparisons also affects usability when alternatives are evaluated pairwise. A frequently changing service inventory can make repeated elicitation burdensome. Rating approaches may reduce that burden, but their category definitions and calibration still need attention. For the present project, this suggests evaluating whether a method can retain stable, interpretable criteria when services are added or updated. A reproducible rule should not silently change the meaning of existing requirements merely because the inventory has changed.
+
+\section{Service Dependencies and Restoration Ordering}
+
+\subsection{Why Direct Impact Is Insufficient}
+
+A service depends on other services or resources when it cannot deliver its required outcome without them. Dependencies may involve technology, personnel, facilities, information, or external suppliers. Their significance is not captured fully by a service's direct impact rating. A supporting function with a modest direct impact may be necessary for several services whose interruptions become unacceptable quickly.
+
+Shahverdi et al. model critical societal services that depend on power, water, and transportation lifelines. Their model represents both relationships within lifelines and relationships across them, including access needed by repair crews \cite{shahverdi2025recovery}. The study demonstrates that recovery decisions must account for the mechanisms through which a supporting element enables a critical outcome. It also distinguishes restoring an entire network from restoring the parts needed to resume selected services.
+
+The transferable principle is dependency-aware reasoning, not the direct adoption of an infrastructure scheduling model for an organizational web application. A business service dependency record should identify the dependent service, supporting service or resource, required condition, and any alternative. A shared application and a genuinely indispensable service should not be treated as equivalent merely because both have connections in a graph. The recovery significance of a relationship depends on what it enables and whether a viable substitute exists.
+
+\subsection{Dependency Timing and Feasibility}
+
+An impact-based order and an executable recovery sequence can differ. A highly urgent service may depend on a supporting service that must be restored first. The supporting service's earlier position reflects a prerequisite, not necessarily greater direct business harm. A decision-support output should make this distinction visible so that users can understand why the displayed sequence differs from a simple impact ranking.
+
+Time requirements also need to leave room for activation and verification. A dependent service cannot necessarily resume at the exact moment that its supporting resource becomes technically available. It may require configuration, synchronization, reconciliation, or an operational check. A dependency rule should therefore be explicit about the required condition and lead time. The appropriate lead time would need domain input or recovery evidence; it cannot be inferred solely from the presence of an edge.
+
+Alternatives require different reasoning from mandatory prerequisites. A service that can use either of two providers has a different dependency condition from a service requiring both providers. Degraded operation may also satisfy a limited resumption requirement. These cases suggest that a recovery matrix should preserve the semantics of the relationship rather than count all dependencies as identical contributions to a score. This is a design requirement derived from comparing the reviewed models, not a claim that all relationship types have already been implemented.
+
+Circular dependencies introduce a further difficulty. If two services each require the other to resume, an ordinary ordering rule cannot resolve the cycle. The decision may require a joint recovery group, a temporary workaround, or clarification of the represented dependencies. Similarly, a shared resource can create competition among otherwise valid recovery sequences. These situations should appear as explicit exceptions requiring review. Assigning a rank to every service does not establish that the entire set of targets is feasible.
+
+\subsection{Optimization of Critical-Service Restoration}
+
+Shahverdi et al. formulate a stochastic restoration problem and solve related two-stage programs over a rolling, diminishing horizon. Their approach uses progressive hedging, scenario reduction, and parallelization. Numerical experiments involve a synthetic network grounded in a real setting, with 182 lifeline elements and two hospitals. The analysis considers alternative objective weights and the effect of prioritizing hospitals on service restoration \cite{shahverdi2025recovery}.
+
+The study provides evidence for the importance of coordination across supporting infrastructures. Its scope also establishes several limits on transfer. Restoration jobs are assumed to take one time increment, component states are simplified, and travel time is treated as small relative to restoration time. Hospitals are assumed to become functional when their required lifelines are available. These assumptions support the studied formulation, but organizational recovery may include variable-duration tasks, partial service, and additional activation work.
+
+Most importantly, optimization operates on defined objectives, constraints, and scenario assumptions. It does not remove the need to determine acceptable business consequences. A schedule that maximizes service availability under selected weights answers a different question from a methodology that derives MTPD and RTO from approved impact criteria. The proposed project can use optimization research to justify dependency and feasibility checks while keeping the derivation of recovery requirements as its central problem.
+
+\section{Existing Information Systems and Implemented Tools}
+
+\subsection{A Mining-Based Continuity Information-System Framework}
+
+Idrees et al. propose a mining-based business continuity information system for educational institutes. Their study combines institutional data collection, statistical analysis, association-rule mining using WEKA, and a BCM framework informed by continuity requirements. The case concerns the Faculty of Tourism and Hotels at Fayoum University. Its BIA framework explicitly includes dependencies and the calculation of MTPD, MBCO, RTO, and RPO \cite{idrees2019bcis}.
+
+This work is a close comparison because it addresses continuity in an institutional setting and links information processing with continuity-related decisions. It cannot fairly be described as a system that only stores documents or omits recovery requirements. However, the reported mining procedure concerns associations among stakeholder characteristics, barriers, and risk types. Its reported rule confidence should not be interpreted as accuracy in predicting recovery times or validating a recovery sequence. The framework's inclusion of a ``calculate RTO'' step also does not provide a complete, independently tested impact-to-time derivation procedure.
+
+The evidence should therefore be classified carefully. The article presents a framework and a case-based analysis, but does not establish a deployed web application with evaluated service-specific recovery recommendations. Some numerical tables and accompanying interpretations are not fully consistent, further limiting strong quantitative conclusions. For this project, the useful lesson is that identifying continuity activities and collecting institutional evidence can support a methodology, while the rules governing recovery outputs still require explicit specification and separate evaluation.
+
+\subsection{Business Continuity Information Network}
+
+Saleem et al. present the Business Continuity Information Network (BCIN), a web-based prototype supporting communication between businesses and emergency-management participants. Its functions include resource identification, situation awareness, contact management, and a disaster-information dataspace. The prototype is illustrated using Hurricane Wilma information \cite{saleem2008bcin}. It provides a concrete predecessor for an information-rich continuity interface rather than merely proposing an abstract architecture.
+
+BCIN's contribution differs from the present project's intended contribution. Its principal decision context is coordination and access to recovery information. The paper distinguishes implemented functions from more extensive intelligent decision support planned for future development. The reported economic benefit estimate is conditional, rather than a measured result of deployment. The prototype evidence consequently supports discussion of information sharing and interface functions, while it does not establish that BCIN derives service-specific RTO and MTPD through an evaluated impact matrix.
+
+A useful implication is that a dashboard's appearance does not identify the analytical method behind it. The same visual form can display status information, resources, impact rankings, or derived requirements. The proposed system should state which of these outputs it provides and how they were obtained. The internal pages of the proposed application will supply its dashboard; the project does not assume the external, multi-organization data-integration architecture of BCIN.
+
+\subsection{PRIA and Process-Aware Impact Propagation}
+
+Raptaki et al. develop an implemented process-impact analysis tool using event logs and weighted dependency graphs. The tool combines ProM components with a custom Java desktop application, accepts XES-formatted logs, and produces graph and impact-analysis outputs. Its extended methodology handles loops and changes in activity availability. Evaluation uses procurement information from a transportation company, comparisons with existing assessment approaches, and interviews with five organizational stakeholders \cite{raptaki2025propagation}.
+
+PRIA is especially relevant because it demonstrates an operational analytical artifact and an evidence-based comparison with organizational knowledge. Its outputs identify relative impact propagation from a selected point of interest and rank activities for mitigation attention. The paper expressly notes that these relative results should be connected with absolute BIA information. Activities outside the logged systems are also outside its represented process, and log security is an assumption of the threat model.
+
+These properties establish a distinct decision layer. Relative propagated impact indicates how strongly an initiating event affects the modeled activities; it does not supply a business tolerance duration by itself. The proposed project should preserve this distinction if it adopts graph-based reasoning. Its service assessments can be entered through internal forms, without assuming access to ERP event logs or implementing process mining. Nevertheless, PRIA shows the value of representing dependencies, challenging incomplete process assumptions, and comparing recommendations with stakeholder judgment.
+
+The evaluation strategy is also informative. Comparison with an existing BIA and interviews can assess whether results are plausible and useful, but agreement with stakeholders is not the same as observed recovery performance. A single process in one organization limits broader inference. For the proposed methodology, ranking quality, recovery-requirement consistency, and practical usability should therefore be treated as separate evaluation dimensions.
+
+\subsection{Comparison of System Scope and Evidence}
+
+Table~\ref{tab:system-comparison} compares the three closest information-system examples. Its entries refer to the reviewed publication, not to every subsequent version of a system. ``Not established'' means the cited report does not provide sufficient evidence for the stated property. It should not be read as proof that the authors' later work, commercial systems, or the wider field lack that property.
+
+\begin{sidewaystable}[htbp]
+\centering
+\caption{Comparison of reported continuity systems and analytical tools}
+\label{tab:system-comparison}
+\begin{spacing}{1}
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabularx}{\textheight}{@{}>{\raggedright\arraybackslash}p{2.5cm}*{4}{>{\raggedright\arraybackslash}X}@{}}
+\toprule
+Work & Inputs and representation & Reported analytical output & Implementation/evaluation evidence & Relation to the proposed methodology \\
+\midrule
+Idrees et al. \cite{idrees2019bcis} & Institutional questionnaires, continuity activities, stakeholder and risk information. & Association rules and a BCM/BIA framework explicitly naming MTPD, RTO, RPO and MBCO. & Educational-institution case analysis and mining; deployed web recovery recommender not established. & Close institutional predecessor; recovery-parameter inclusion must be acknowledged. Derivation rules require closer specification. \\
+\addlinespace
+BCIN \cite{saleem2008bcin} & Disaster reports, business updates, geographic and resource information. & Situation awareness, communication and proximity-based resource identification. & Implemented web prototype illustrated with hurricane information; extensive intelligent support partly future work. & Informs interface and traceable information needs; cross-organization integration is outside the proposed application scope. \\
+\addlinespace
+PRIA extension \cite{raptaki2025propagation} & Event logs, activity dependency graphs and selected initiating events. & Relative propagated impact and activity rankings. & Java desktop tool; company procurement case, baselines and stakeholder interviews. & Informs dependency representation and comparative evaluation; relative impact does not itself define tolerance durations. \\
+\bottomrule
+\end{tabularx}
+\end{spacing}
+\end{sidewaystable}
+
+The comparison indicates that there are existing systems with meaningful continuity functions. The research opportunity cannot rest on claiming that BCM software does not exist. Instead, the intended contribution concerns a specified decision chain: impact evidence, approved criteria, inferred recovery requirements, dependency checks, and an explanation available for review. The future application will make that chain inspectable. Whether it improves decisions must then be evaluated against relevant alternatives.
+
+\section{Research Methods for Developing the Proposed Artifact}
+
+\subsection{The Methodology and Its Software Instantiation}
+
+The proposed artifact has two related parts. The first is a methodology defining how assessment evidence and recovery criteria lead to requirements and priorities. The second is a software instantiation supporting that methodology. The distinction permits evaluation of the reasoning even before a complete interface exists. It also prevents a successful software demonstration from becoming evidence that the underlying recovery rules are valid.
+
+Venable et al. emphasize that design-science evaluation concerns both an artifact's practical utility and the knowledge contributed through its development. Their Framework for Evaluation in Design Science (FEDS) distinguishes the purpose of evaluation from its setting: formative versus summative, and artificial versus naturalistic \cite{venable2016feds}. These dimensions provide a methodological basis for planning how the proposed artifact might be examined during IS597. They are not evidence that the present project has conducted those evaluations.
+
+The reviewed systems demonstrate different forms of evidence. A prototype can establish that a function has been implemented. A numerical example can establish how a formula behaves under selected inputs. An expert review can identify whether assumptions or explanations are acceptable. A controlled comparison can investigate differences between methods. A field evaluation can investigate use within an organizational context. Each supports a different claim; none should be used as a substitute for all the others.
+
+\subsection{Formative and Summative Evaluation}
+
+A formative evaluation is intended to improve the artifact. For a recovery methodology, this could examine ambiguous criteria, inconsistent interpretations, unsupported inputs, or unexpected dependency outcomes. A summative evaluation assesses the resulting artifact against specified objectives. FEDS explains that these purposes do not correspond automatically to particular stages or techniques \cite{venable2016feds}. A late evaluation can still identify improvements, while an early decision about continuing a design can have a summative purpose.
+
+The implication for the project is to specify evaluation claims before selecting instruments. If the claim concerns reproducible application of rules, repeated scenario assessments and independent calculation checks may be appropriate. If it concerns understandable explanations, users need to interpret decision records. If it concerns practical usefulness, the method must be considered within the relevant decision setting. A questionnaire reporting satisfaction cannot establish that inferred recovery requirements respect all temporal and dependency constraints.
+
+The evaluation should also allow disagreement. Experts can differ over business impacts or acceptable targets, and a rule-based artifact should not conceal that variation. Where judgments are disputed, the review process needs to identify whether the disagreement concerns evidence, criteria, or the application of rules. Counting agreement without examining its basis can make a method appear valid when participants have simply adopted the same assumptions.
+
+\subsection{Artificial and Naturalistic Evaluation}
+
+Artificial evaluation permits controlled examination using constructed scenarios, simulations, or analytical checks. Naturalistic evaluation considers an artifact with real users and problems in its intended setting. Venable et al. discuss the strengths and limits of both approaches and show how an evaluation strategy can combine episodes suited to the artifact and available resources \cite{venable2016feds}. A controlled setting can expose rule failures clearly, while an organizational setting can reveal interpretation and workflow problems that a constructed example omits.
+
+For the proposed methodology, constructed scenarios could examine boundary conditions such as equal impact profiles, missing assessments, conflicting criteria, shared dependencies, and cycles. Such scenarios would provide evidence of logical behavior under documented conditions. They would not justify a claim of successful organizational recovery. Where access and approvals permit, a later organizational or expert evaluation could assess the fit of the criteria and explanations to actual decision work.
+
+A credible comparison also needs a defined baseline. Relevant alternatives could include an impact-only ordering, a documented existing assessment procedure, or a multicriteria ordering using the same assessment information. The baseline must be described sufficiently to support interpretation. A deliberately weak or vaguely defined alternative would provide little evidence of the proposed method's merit. Differences in data, criteria, or available information should be reported rather than attributed entirely to the new methodology.
+
+\section{Cross-Study Synthesis and Research Opportunity}
+
+\subsection{Different Decision Layers in the Literature}
+
+The reviewed evidence covers several complementary decision layers. Quinn et al. and Arias-Aranda et al. address impact governance and management-process relationships. Podaras et al. offer a recovery-effort and testing method. Saaty provides a foundation for relative multicriteria priorities. Idrees et al. connect institutional analysis with a continuity framework. BCIN supports coordination, PRIA supports impact propagation, and Shahverdi et al. support restoration scheduling \cite{quinn2025bia,reference2026processes,podaras2016tools,saaty2008ahp,idrees2019bcis,saleem2008bcin,raptaki2025propagation,shahverdi2025recovery}.
+
+These layers should not be reduced to a single binary comparison of whether each work supports BCM. A management model can be valuable without computing a recovery schedule; a scheduling algorithm can be rigorous without deriving business tolerance. The closer question is how the outputs of one layer become inputs to another. An impact profile needs a justified interpretation before it becomes a time requirement. A time requirement needs dependency and capability checks before it becomes an executable plan.
+
+Table~\ref{tab:analytical-comparison} summarizes the analytical contributions and the corresponding limits relevant to the project. Its purpose is to identify what can be transferred and what remains a separate design or evaluation task. The proposed methodology is not included as a completed system because its implementation and outcomes are prospective.
+
+\begin{table}[htbp]
+\centering
+\caption{Analytical contributions and limits of transfer to the project}
+\label{tab:analytical-comparison}
+\begin{spacing}{1}
+\small
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{2.6cm}*{2}{>{\raggedright\arraybackslash}X}@{}}
+\toprule
+Contribution & Useful foundation & Limit relevant to recovery-requirement derivation \\
+\midrule
+NIST BIA guidance \cite{quinn2025bia} & Organization-specific criteria, impact records and governance. & Guidance does not validate a service-specific inference algorithm. \\
+BCM reference model \cite{reference2026processes} & Process relationships and approved continuity requirements. & Expert recognition of processes is not validation of numerical recovery rules. \\
+BCTP \cite{podaras2016tools} & Explicit factors, weights and recovery-effort calculations. & Illustrative mapping requires independent practical validation; urgency and capability must remain distinct. \\
+AHP \cite{saaty2008ahp} & Structured preference elicitation and relative priorities. & Relative priorities need separate justification before translation into elapsed-time requirements. \\
+Lifeline optimization \cite{shahverdi2025recovery} & Dependency-aware restoration and coordinated scheduling. & Prespecified objectives and repair assumptions address a different problem from business tolerance derivation. \\
+\bottomrule
+\end{tabularx}
+\end{spacing}
+\end{table}
+
+\subsection{A Bounded Gap}
+
+Within the publications examined in full, no single report establishes and evaluates the complete combination sought by this project: a service-level, rule-based method that interprets time-dependent business impacts through approved recovery criteria, determines appropriate MTPD and RTO requirements, checks dependencies, and retains an explanation of the resulting priorities. This is a conclusion about the reviewed evidence, not proof that the combination has never been proposed elsewhere.
+
+The gap is narrower than the absence of automation or dashboards. It concerns the specification and evaluation of the decision chain. Prior work already includes recovery parameters, formal calculations, dependency analysis, and implemented systems. The proposed contribution must therefore explain how those elements are combined for its particular decision context and which properties are assessed. A claim of originality or superiority would require further evidence beyond this review.
+
+The research question follows this distinction: the methodology should determine appropriate recovery requirements through defined criteria and retain the basis of those decisions. A defensible proposal must consequently identify the basis of each criterion, the conditions under which a rule applies, and the information needed to review its output. The software supports those tasks, but the methodology remains the object of the research question.
+
+\subsection{Requirements Derived from the Review}
+
+The synthesis yields six requirements for subsequent design. First, assessments should retain their service context, operating assumptions, and evidence. Second, impact profiles should preserve changes over interruption time rather than collapse them immediately into a final score. Third, tolerance limits, targeted recovery times, and achievable capability should be represented separately. Fourth, dependencies should preserve their meaning and timing. Fifth, outputs should expose their reasoning and exceptions. Sixth, evaluation should distinguish logical consistency, contextual validity, and usability.
+
+These requirements are summarized in Table~\ref{tab:literature-requirements}. They are literature-informed project requirements, not findings from a completed evaluation. The detailed algorithm, final thresholds, data model, and implementation choices will need to be developed through the later design work. In particular, no universal hours, factor weights, or effectiveness percentages are adopted from the reviewed examples.
+
+\begin{table}[htbp]
+\centering
+\caption{Literature-informed requirements for subsequent design}
+\label{tab:literature-requirements}
+\begin{spacing}{1}
+\small
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.8cm}*{2}{>{\raggedright\arraybackslash}X}@{}}
+\toprule
+ID & Requirement and rationale & Principal supporting literature \\
+\midrule
+R1 & Record service scope, impact evidence, owners and approval of criteria. & BIA governance and process ownership \cite{quinn2025bia,reference2026processes}. \\
+R2 & Preserve time horizons and uncertainty near tolerance boundaries. & Time-sensitive impacts and explicit recovery analysis \cite{quinn2025bia,podaras2016tools}. \\
+R3 & Separate tolerance, target, recovery level and capability gaps. & Recovery parameters and effort comparisons \cite{idrees2019bcis,podaras2016tools}. \\
+R4 & Record prerequisites, alternatives, timing and unresolved dependency conflicts. & Process propagation and coordinated restoration \cite{raptaki2025propagation,shahverdi2025recovery}. \\
+R5 & Provide an inspectable decision record connecting evidence, criteria and outputs. & Documented requirements and analytical representations \cite{reference2026processes,podaras2016tools}. \\
+R6 & Evaluate methodology behavior and user interpretation separately. & FEDS and implemented-tool evaluation \cite{venable2016feds,raptaki2025propagation}. \\
+\bottomrule
+\end{tabularx}
+\end{spacing}
+\end{table}
+
+An inspectable decision record is more informative than a score alone. It should allow a reviewer to determine which assessment triggered a condition, which criterion was applied, and whether dependency or capability information affected the recommendation. If information is missing or conflicting, the output should identify the unresolved issue. A dashboard can summarize this information while allowing the user to inspect the supporting records in the same application. This maintains the intended scope of internal application pages supplying a common analytical view.
+
+Versioning is relevant because changes to criteria can change recovery recommendations even when the underlying service assessment remains the same. Retaining the criteria used for a decision allows a later review to distinguish a policy change from a data change. It also supports meaningful comparison during evaluation. This is a practical consequence of reproducible reasoning; the literature review does not establish a complete versioning architecture or an implemented audit subsystem.
+
+\subsection{Anticipated Evaluation Questions}
+
+The review suggests several questions for IS597 evaluation. Do identical inputs and criteria produce reproducible outputs? Do tolerance and target recommendations respect the defined temporal conditions? Does dependency reasoning reveal prerequisites and conflicts that an impact-only approach misses? Can a reviewer understand the basis of a recommendation? How sensitive are results to alternative assessments or criteria? These questions connect the planned evaluation to the intended contribution.
+
+Performance claims should remain proportionate to the evidence collected. Successful scenario checks would support statements about behavior under the tested conditions. Expert review would support statements about the reviewed criteria and interpretations. An organizational case could support conclusions about that setting, with its assumptions and limitations. Claims about reduced recovery time, financial savings, or improved operational resilience would require corresponding outcome evidence. Such results are not anticipated as facts in the current IS595 report.
+
+The study selection also identifies limitations to address in continued research. The reviewed evidence includes different industries and analytical units, and only some works report implemented tools. The review does not benchmark commercial products or establish Saudi-sector regulatory compliance. The methodology's applicability to a particular organization will require context-specific requirements and access to suitable evidence. These are boundaries for later inquiry, while the present chapter establishes a coherent foundation for the proposed decision problem.
+
+\section{Chapter Summary}
+
+Business continuity research provides substantial foundations for impact governance, recovery analysis, coordination, dependency modeling, and restoration planning. Existing frameworks already include RTO and MTPD, and implemented systems provide analytical or collaborative functions. The reviewed approaches differ in their decision objects, outputs, assumptions, and evaluation evidence. Recognizing these differences makes it possible to position the proposed project without claiming that continuity systems or recovery methods are absent.
+
+The literature supports developing a methodology that connects time-dependent service impacts and defined recovery criteria with explicit requirements and dependency-aware priorities. Its justification depends on preserving the distinction between business tolerance, recovery targets, and achievable capability, while retaining evidence and explanations for review. These findings guide the discussion of anticipated applications; implementation and validation remain IS597 activities.
