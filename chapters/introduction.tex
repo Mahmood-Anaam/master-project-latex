@@ -1,5 +1,106 @@
 \chapter{Introduction}
 \label{ch:introduction}
-Typically, the introduction chapter includes background, problem statement, research questions, research objectives, thesis scope and organization of thesis.
 
-iso22301 \cite{iso22301} , iso22317\cite{iso22317}
+Business continuity decisions require an explanation of which services should resume first and the time available to restore an acceptable level of delivery. The most visible failure may depend on a less visible enabling service, while an approved workaround may temporarily sustain another activity. Recovery requirements therefore need to reflect business consequences over time as well as operational dependencies.
+
+This master's graduation project proposes a rule-based decision support methodology for deriving service recovery requirements and priorities, supported by a service-impact and recovery-priority matrix. The present IS595 report establishes the problem, scientific background, and proposed direction. Implementation and empirical evaluation of a web-based prototype are planned for IS597.
+
+\section{Background, Motivation, and Scope}
+\label{sec:intro-motivation}
+
+Business continuity management (BCM) addresses the arrangements needed to sustain or resume important services following disruption. Business impact analysis (BIA) examines the consequences of interruption and the conditions under which they become unacceptable. NIST's updated guidance connects BIA to mission objectives, enabling assets, impact values, and management-defined risk tolerance \cite{quinn2025bia}. Recovery requirements consequently need a business justification in addition to technical recovery information.
+
+Maximum tolerable period of disruption (MTPD) expresses the duration beyond which interruption has unacceptable consequences. Recovery time objective (RTO) expresses a target for resuming a defined level of delivery within that tolerance boundary \cite{torabi2014bia}. Selecting this target also requires attention to deadlines, stabilization, and recovery capability. The Business Continuity Testing Points approach illustrates why estimated recovery effort should be assessed against recovery requirements \cite{podaras2016tools}.
+
+The motivation is to make the reasoning between impact assessment and recovery requirements explicit. A general label such as ``critical'' does not establish when impact becomes unacceptable or which prerequisites must be available. An unexplained RTO can similarly conceal different assumptions about tolerance and feasibility. Existing BIA frameworks and continuity information systems already address related problems \cite{torabi2014bia,idrees2019bcis}. This project will investigate a bounded combination of time-dependent assessment, rule-based derivation, dependency handling, and explanation; its specific contribution must be established against that prior work.
+
+The scope is a bounded catalogue of organizational services and their mandatory dependencies. IS595 will define the problem, review the literature, and discuss the proposed matrix, methodology, and anticipated applications. A later Django-based prototype is envisaged to support impact assessment, dependency recording, and review of recommendations through related pages in one application. External-system integration, technical failover, and complete crisis management are outside the planned core scope. Section~\ref{sec:intro-scope} specifies the project boundaries and assumptions in more detail.
+
+\section{Problem Statement and IS Relevance}
+\label{sec:intro-problem}
+
+The problem addressed here is how to translate a service's time-dependent business impact and dependencies into justified recovery requirements and an explainable recovery priority. An impact assessment records consequences; a recovery decision requires a target, a priority, and an account of why they follow from those consequences. Without an explicit transformation between these stages, two analysts can use the same assessment and still select different recovery targets or orders because they apply different assumptions, thresholds, or dependency interpretations.
+
+Three connected issues define the project problem. First, impact must be interpreted over time. A service with manageable consequences during a short interruption may become time-critical near a business deadline. A single overall impact rating cannot express this transition. Assessing several dimensions also requires care: a modest financial effect must not offset an unacceptable safety or mandatory compliance consequence through an aggregate score. A defensible method must therefore identify the relevant tolerance rules before comparing services numerically.
+
+Second, establishing MTPD alone does not determine RTO. The method must explain how a target earlier than the tolerance boundary is selected, what margin or deadline justifies it, and what happens if available evidence is insufficient. Where impacts are assessed only at discrete time intervals, the method cannot legitimately report a precisely measured boundary between those intervals. Where recovery capability falls short of the target, the appropriate output is a feasibility issue requiring review, rather than a relaxed tolerance boundary chosen to accommodate current resources.
+
+Third, services cannot always be prioritized independently. A customer-facing service may need an enabling application or shared internal service to resume first. Ranking the customer-facing service highly does not remove that prerequisite. A useful method must distinguish business urgency from the feasible order of recovery actions, recognize approved alternatives, and flag circular dependencies or conflicting requirements that need expert resolution. Simply counting dependencies would not establish either the seriousness of the consequences or the correct recovery sequence.
+
+The project problem is therefore stated as follows:
+\begin{quote}
+How can assessed business impacts over time and service dependencies be translated, through explicit and reviewable decision rules, into appropriate recovery requirements and defensible service recovery priorities?
+\end{quote}
+
+This is an information-systems problem because it links domain knowledge, structured data, decision logic, and accountable human action. The intended contribution is a documented decision methodology and its supporting information structure. Capturing inputs through related pages within one application and presenting results on a dashboard are supporting functions. Integration with multiple external systems is not assumed to be the source of the problem or a prerequisite for the proposed solution.
+
+\section{Project Aim and Research Questions}
+\label{sec:intro-questions}
+
+The aim is to propose a rule-based decision support methodology that determines appropriate service recovery requirements, including RTO and MTPD, and recovery priorities from time-dependent impact profiles, defined recovery criteria, and service dependencies. During IS595, the project will establish and justify this proposed methodology through analysis of relevant literature and a clearly bounded application context. During IS597, the approved proposal is intended to be implemented and evaluated as a web-based prototype.
+
+The main research question is:
+\begin{quote}
+How can a rule-based decision support methodology determine service recovery priorities and appropriate recovery requirements based on time-dependent business impact and service dependencies?
+\end{quote}
+
+The following supporting questions specify the decisions that the proposal must address:
+\begin{enumerate}[label=RQ\arabic*.,leftmargin=*]
+  \item Which impact dimensions, time intervals, tolerance thresholds, and recovery criteria are needed to derive reviewable MTPD and RTO recommendations?
+  \item How should a service-impact and recovery-priority matrix combine these inputs while preserving mandatory constraints and distinguishing business urgency from recovery order constrained by dependencies?
+  \item What evidence and evaluation criteria are needed to assess the methodology's consistency, transparency, and usefulness against a defined baseline in the subsequent implementation phase?
+\end{enumerate}
+
+\section{Project Objectives}
+\label{sec:intro-objectives}
+
+The project will define the recovery decision problem, its information requirements, and its significance within business continuity management. It will critically review BIA methodologies, recovery-prioritization approaches, and comparable continuity decision support systems to establish the proposal's basis and delimit its contribution. It will propose a service-impact and recovery-priority matrix with explicit rules for deriving MTPD and RTO recommendations and interpreting service dependencies. It will specify the expected application workflows, explanation requirements, and governance controls for a future Django-based prototype. It will define a feasible evaluation plan for IS597 that examines rule correctness, consistency, expert agreement, and decision transparency using representative disruption scenarios.
+
+\section{Proposed Methodology and Application Concept}
+\label{sec:intro-concept}
+
+The proposed methodology begins with a service impact profile. For each service, this profile will describe the minimum acceptable delivery level, consequences at selected disruption intervals, relevant business deadlines, and dependencies needed to sustain or restore delivery. Impact dimensions may include operational, financial, legal or contractual, safety, and reputational consequences. Their applicability, scales, and unacceptable-impact thresholds will require justification and domain review. Illustrative time bands or thresholds will not be treated as universal values.
+
+The proposed matrix will relate each service to its assessed impacts across time, the applicable tolerance criteria, mandatory dependencies, candidate recovery requirements, and resulting priority explanation. It is a structured representation of decision evidence, not a claim that a single weighted score can express every recovery obligation. Its detailed columns, rules, and treatment of exceptions will be developed through the literature-grounded discussion of the proposal. The introduction establishes the intended logic and leaves final calibration open to review.
+
+For MTPD, the candidate rule will identify the earliest assessed time at which at least one applicable, approved unacceptable-impact criterion is reached. This produces an assessed tolerance boundary, conditional on the profile and its assumptions. If no threshold is reached within the assessed horizon, MTPD will remain undetermined beyond that horizon; if evidence is missing or contradictory, the method will request review. It will not substitute an arbitrary default. Assessment intervals will be retained in the explanation so that users can distinguish a time-band recommendation from a precisely established deadline.
+
+For RTO, the method will select a candidate target before the identified tolerance boundary using defined recovery criteria, such as the required minimum service level, binding deadlines, and an explicitly justified recovery margin. The proposal will require the target and the tolerance boundary to use the same disruption start point and consistent time units. No fixed percentage of MTPD is assumed. An estimated recovery duration will be used to check whether the candidate target is achievable; it will not be used to redefine the business's tolerance merely because recovery is difficult. Missing capability evidence will be reported as unresolved feasibility.
+
+The priority rules will then consider time-dependent urgency and mandatory obligations, followed by dependency conditions and the availability of approved workarounds. An enabling service may need earlier recovery because another service requires it, without changing the enabling service's own intrinsic impact assessment. The methodology will preserve that distinction and identify the dependency path responsible for the requirement. A circular dependency or an infeasible set of targets will be flagged for review rather than hidden within a ranking. A service's MTPD will remain an impact-based tolerance assessment; dependency analysis may constrain recovery targets and action order, but it will not mechanically overwrite that tolerance.
+
+The envisaged application will support service registration, impact assessment, dependency recording, configuration of approved criteria, and review of derived recommendations. These functions will be related pages within a single web system. Its dashboard will read the records and outputs maintained by those pages. A recommendation will identify the input assessment, activated rules, threshold or deadline, dependency conditions, and method version. A designated reviewer will be able to accept or revise it with a recorded reason. This preserves the difference between a rule-derived recommendation and an organizationally approved recovery requirement.
+
+\section{Scope and Project Boundaries}
+\label{sec:intro-scope}
+
+The unit of analysis is an organizational service and the activities or resources on which its minimum acceptable delivery depends. The project will focus on a bounded service catalogue within a single organizational context. A specific participating organization and access to its records have not yet been established; consequently, the proposal does not claim an observed institutional deficiency or access to production data. If organizational participation is unavailable, explicitly labelled synthetic scenarios will support demonstration, with correspondingly limited claims about operational applicability.
+
+The immediate IS595 scope comprises problem definition, review of relevant literature and comparable systems, specification of the proposed matrix and decision principles, discussion of anticipated applications, and conclusions and future work. The application description in this chapter expresses a proposed direction. Detailed architecture, complete algorithms, software development, and empirical validation will belong to the subsequent IS597 phase, after approval of the proposal.
+
+The planned prototype scope includes deriving and explaining candidate RTO and MTPD values, prioritizing services, checking mandatory prerequisites, recording review decisions, and presenting results on the dashboard. Recovery point objective (RPO) and minimum delivery levels may be recorded as contextual requirements; automated derivation of data-loss tolerance is outside the central method. Full crisis management, live monitoring, process mining, technical failover, external-system integration, and optimization of all recovery crews and resources are outside the planned core scope. Django and a relational database are intended implementation choices, subject to the requirements established during the proposal stage; no application implementation is claimed here.
+
+\section{Significance and Expected Contribution}
+\label{sec:intro-significance}
+
+The importance of the problem extends beyond keeping continuity records current. Recovery requirements inform preparedness, investment, exercises, and service commitments. An unexplained target can make a recovery plan appear sufficient even when its timing does not follow from the consequences of disruption. A transparent derivation can expose assumptions and disagreements before those requirements are relied upon during an incident. This is an expected benefit of the proposed approach, not a measured result.
+
+For information systems, the project offers a domain-focused opportunity to connect business knowledge with executable decision rules and human oversight. Its expected contribution consists of a literature-grounded service-impact and recovery-priority matrix, a reviewable rule-based methodology, and requirements for an application that preserves the reasoning behind its outputs. The methodology is the principal proposed contribution; the future web prototype will instantiate it. This orientation is consistent with design science's concern with purposeful artefacts addressing relevant organizational problems \cite{hevner2004design}.
+
+The contribution is bounded. BIA, multi-criteria assessment, continuity software, and recovery prioritization already have established precedents \cite{torabi2014bia,idrees2019bcis,podaras2016tools}. The project will assess how its combination of time-based derivation, dependency handling, and explanation compares with those precedents. It will not claim universal novelty, guaranteed improvement, mathematical optimality, or compliance certification. Any later performance or usefulness claims will be tied to the evidence obtained under the stated evaluation conditions.
+
+\section{Expected Deliverables and Evaluation Direction}
+\label{sec:intro-deliverables}
+
+The IS595 deliverable is a report containing the problem definition, scope and significance, a critical literature review, discussion of the proposed methodology and anticipated applications, and conclusions with future work. The literature review will proceed from general BCM and BIA foundations to recovery requirements, dependency-aware prioritization, and comparable analytical methods and systems. The full IS595 report is expected to meet the departmental guidance of 20--30 literature-review pages, 5--10 discussion pages, 2--3 conclusion pages, and 20--30 references. These requirements concern the completed report and are not claimed to be satisfied by this introduction alone.
+
+For IS597, the expected deliverables are an approved method specification, a functioning prototype, documented scenarios, and an implementation and evaluation report. The evaluation is intended to test threshold-boundary cases, inconsistent or missing assessments, infeasible recovery targets, ties in priority, mandatory dependencies, alternatives, and cycles. Repeatability will be assessed using identical inputs and rule versions. Later expert review will examine whether explanations and recommendations are defensible, while comparison with a defined manual assessment process will examine agreement, differences in reasoning, and task completion time. Expert disagreement will be analysed rather than automatically treated as system error or evidence of system superiority. Participant access, baseline design, sample size, and acceptance criteria remain to be specified before empirical testing.
+
+\section{Limitations and Report Organization}
+\label{sec:intro-limitations}
+
+The methodology will depend on the quality of impact assessments, the suitability of tolerance criteria, and the completeness of recorded dependencies. Explicit rules can make judgement reproducible, but they cannot establish that the underlying judgement is correct. Discrete time bands also limit temporal precision. Unknown dependencies, changing operating conditions, and unverified workarounds can alter the appropriate recovery requirement or action order. Recommendations must therefore retain their assumptions and remain subject to authorized review.
+
+At the IS595 stage, the methodology remains a proposal supported by literature and analytical reasoning. A later evaluation using synthetic scenarios could establish rule behaviour within those scenarios, but would provide limited evidence about real incident performance. Sector-specific obligations and the feasibility of recovery arrangements will require contextual validation before practical adoption.
+
+The remaining IS595 report will contain a literature review, a discussion of the proposed approach and anticipated applications, and a conclusion with future work. The literature review will establish what previous methodologies and systems already support and where the bounded proposal may add value. The discussion will develop the matrix, decision principles, application concept, and proposed evaluation approach. The conclusion will summarize the proposal and identify the work required in IS597. Implementation results will be reported only after the subsequent development and evaluation phase.

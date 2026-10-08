@@ -1,0 +1,12 @@
+% Compile from the repository root:
+% latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=docs/review docs/review/introduction-review.tex
+\documentclass[12pt,a4paper,oneside]{report}
+\input{packages.tex}
+\begin{document}
+\doublespacing
+\input{chapters/introduction.tex}
+\clearpage
+\singlespacing
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}
